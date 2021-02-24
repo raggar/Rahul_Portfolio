@@ -44,10 +44,10 @@ const PortfolioShowcase = ({
     <Box {...sectionWrapper} as="section" id="portfolio_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Making Ideas Come to Life !" />
+          <Heading {...secTitle} content="Project ShowCase!" />
           <Text
             {...secDescription}
-            content="Year after year, Blue Label Labs has been recognized as one of the top design and development firms in New York City. It’s nice to feel appreciated!"
+            content="Over the last couple of years I have created numerous side projects to advance my programming capabilities. Feel free to take a look at what I've made and view the source code if you are interested."
           />
         </Box>
 
@@ -117,49 +117,6 @@ const PortfolioShowcase = ({
                               ''
                             )}
                           </Box>
-
-                          {portfolioItem.featuredIn ||
-                          portfolioItem.view ||
-                          portfolioItem.love ||
-                          portfolioItem.feedback ? (
-                            <PortfolioMeta>
-                              {portfolioItem.featuredIn ? (
-                                <MetaItem className="meta_featured">
-                                  FEATURED IN
-                                  <Link
-                                    href={portfolioItem.featuredLink || '#'}
-                                  >
-                                    <a>{portfolioItem.featuredIn}</a>
-                                  </Link>
-                                </MetaItem>
-                              ) : (
-                                ''
-                              )}
-                              {portfolioItem.view ? (
-                                <MetaItem>
-                                  <b>{portfolioItem.view}</b> View
-                                </MetaItem>
-                              ) : (
-                                ''
-                              )}
-                              {portfolioItem.love ? (
-                                <MetaItem>
-                                  <b>{portfolioItem.love}</b> Love
-                                </MetaItem>
-                              ) : (
-                                ''
-                              )}
-                              {portfolioItem.feedback ? (
-                                <MetaItem>
-                                  <b>{portfolioItem.feedback}</b> Feedback
-                                </MetaItem>
-                              ) : (
-                                ''
-                              )}
-                            </PortfolioMeta>
-                          ) : (
-                            ''
-                          )}
                         </PortfolioShowcaseItem>
                       </GlideSlide>
                     ))}

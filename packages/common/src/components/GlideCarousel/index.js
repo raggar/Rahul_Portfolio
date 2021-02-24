@@ -28,6 +28,7 @@ const GlideCarousel = ({
 }) => {
   // Add all classs to an array
   const addAllClasses = ['glide'];
+  controls = false;
 
   // className prop checking
   if (className) {
@@ -94,7 +95,7 @@ const GlideCarousel = ({
           {...bulletWrapperStyle}
         >
           <Fragment>
-            {totalBullets.map(index => (
+            {totalBullets.map((index) => (
               <BulletButton
                 key={index}
                 className="glide__bullet"

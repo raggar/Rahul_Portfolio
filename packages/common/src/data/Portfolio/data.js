@@ -66,7 +66,7 @@ export const MENU_ITEMS = [
     offset: '0',
   },
   {
-    label: 'PROJECT',
+    label: 'PROJECTS',
     path: '#portfolio_section',
     offset: '0',
   },
@@ -119,12 +119,97 @@ export const AWARDS = [
 
 export const PORTFOLIO_SHOWCASE = [
   {
-    title: 'DESIGN',
+    title: 'SHOP.IO',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'Shop.io',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          'A fully functional ecommerce platform where users can browse, sell and checkout their favourite items. Features include user authentication, Stripe payments, password reset options etc.',
+        image: PortfolioImage1,
+        link: '#',
+        featuredIn: 'AWWWARDS',
+        featuredLink: '#',
+        view: '4.5K',
+        love: '1.5K',
+        feedback: '1.2K',
+        buildWith: [
+          {
+            content: 'Next JS',
+          },
+          {
+            content: 'Styled Component',
+          },
+          {
+            content: 'Node JS',
+          },
+          {
+            content: 'GraphQL',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'CHATTER',
+    portfolioItem: [
+      {
+        title: 'Chatter',
+        description:
+          'full-stack social media application that helps people connect and communicate online. Registrants can communicate in real-time using private chat rooms as well as post public messages for others to see.',
+        image: PortfolioImage1,
+        link: '#',
+        featuredIn: 'AWWWARDS',
+        featuredLink: '#',
+        view: '4.5K',
+        love: '1.5K',
+        feedback: '1.2K',
+        buildWith: [
+          {
+            content: 'React JS',
+          },
+          {
+            content: 'Node JS',
+          },
+          {
+            content: 'GraphQL',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'BETTER VOTE',
+    portfolioItem: [
+      {
+        title: 'Better Vote',
+        description: 'A mobile app that helps ....',
+        image: PortfolioImage1,
+        link: '#',
+        featuredIn: 'AWWWARDS',
+        featuredLink: '#',
+        view: '4.5K',
+        love: '1.5K',
+        feedback: '1.2K',
+        buildWith: [
+          {
+            content: 'React Native',
+          },
+          {
+            content: 'MongoDB',
+          },
+          {
+            content: 'Node JS',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'FOLLAKART',
+    portfolioItem: [
+      {
+        title: 'Follakart',
+        description: 'Python stuff that ...',
         image: PortfolioImage1,
         link: '#',
         featuredIn: 'AWWWARDS',
@@ -138,29 +223,6 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
           },
           {
             content: 'Styled Component',
@@ -170,12 +232,11 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
-    title: 'DEVELOPMENT',
+    title: 'LASSOLEARN',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+        title: 'LassoLearn',
+        description: 'Web app that',
         image: PortfolioImage1,
         link: '#',
         featuredIn: 'AWWWARDS',
@@ -189,182 +250,6 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'ANIMATION',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'TV ADVERTISEMENT',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'MARKETING',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
           },
           {
             content: 'Styled Component',

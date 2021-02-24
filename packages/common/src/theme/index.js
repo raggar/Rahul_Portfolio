@@ -8,13 +8,13 @@ export const portfolioTheme = {
   lineHeights: {
     solid: 1,
     title: 1.25,
-    copy: 1.5
+    copy: 1.5,
   },
   letterSpacings: {
     normal: 'normal',
     tracked: '0.1em',
     tight: '-0.05em',
-    mega: '0.25em'
+    mega: '0.25em',
   },
   borders: [
     0,
@@ -23,7 +23,7 @@ export const portfolioTheme = {
     '3px solid',
     '4px solid',
     '5px solid',
-    '6px solid'
+    '6px solid',
   ],
   radius: [3, 4, 5, 10, 20, 30, 60, 120, '50%'],
   widths: [36, 40, 44, 48, 54, 70, 81, 128, 256],
@@ -37,32 +37,32 @@ export const portfolioTheme = {
       backgroundColor: colors.transparent,
       '&:hover': {
         color: colors.primary,
-        backgroundColor: colors.transparent
-      }
+        backgroundColor: colors.transparent,
+      },
     },
     secondary: {
       color: colors.secondary,
       borderColor: colors.secondary,
       '&:hover': {
         color: colors.secondaryHover,
-        borderColor: colors.secondaryHover
-      }
+        borderColor: colors.secondaryHover,
+      },
     },
     warning: {
       color: colors.yellow,
       borderColor: colors.yellow,
       '&:hover': {
         color: colors.yellowHover,
-        borderColor: colors.yellowHover
-      }
+        borderColor: colors.yellowHover,
+      },
     },
     error: {
       color: colors.secondaryHover,
       borderColor: colors.secondaryHover,
       '&:hover': {
         color: colors.secondary,
-        borderColor: colors.secondary
-      }
+        borderColor: colors.secondary,
+      },
     },
     primaryWithBg: {
       color: colors.white,
@@ -75,12 +75,12 @@ export const portfolioTheme = {
         width: '100px',
         height: '100px',
         display: 'block',
-        backgroundColor: colors.primary
+        backgroundColor: colors.primary,
       },
       '&:hover': {
         backgroundColor: colors.primaryHover,
-        borderColor: colors.transparent
-      }
+        borderColor: colors.transparent,
+      },
     },
     secondaryWithBg: {
       color: colors.white,
@@ -88,8 +88,8 @@ export const portfolioTheme = {
       borderColor: colors.secondary,
       '&:hover': {
         backgroundColor: colors.secondaryHover,
-        borderColor: colors.secondaryHover
-      }
+        borderColor: colors.secondaryHover,
+      },
     },
     warningWithBg: {
       color: colors.white,
@@ -97,8 +97,8 @@ export const portfolioTheme = {
       borderColor: colors.yellow,
       '&:hover': {
         backgroundColor: colors.yellowHover,
-        borderColor: colors.yellowHover
-      }
+        borderColor: colors.yellowHover,
+      },
     },
     errorWithBg: {
       color: colors.white,
@@ -106,15 +106,15 @@ export const portfolioTheme = {
       borderColor: colors.secondaryHover,
       '&:hover': {
         backgroundColor: colors.secondary,
-        borderColor: colors.secondary
-      }
+        borderColor: colors.secondary,
+      },
     },
     transparentBg: {
       backgroundColor: colors.white,
       '&:hover': {
-        backgroundColor: colors.white
-      }
-    }
+        backgroundColor: colors.white,
+      },
+    },
   },
   buttonStyles: {
     textButton: {
@@ -122,12 +122,12 @@ export const portfolioTheme = {
       color: colors.primary,
       padding: 0,
       height: 'auto',
-      backgroundColor: colors.transparent
+      backgroundColor: colors.transparent,
     },
     outlined: {
       borderWidth: '1px',
       borderStyle: 'solid',
-      backgroundColor: colors.transparent
+      backgroundColor: colors.transparent,
     },
     fab: {
       border: '0',
@@ -137,17 +137,17 @@ export const portfolioTheme = {
       borderRadius: '50%',
       justifyContent: 'center',
       'span.btn-icon': {
-        paddingLeft: 0
-      }
+        paddingLeft: 0,
+      },
     },
     extendedFab: {
       border: '0',
       minWidth: '50px',
       height: '40px',
       borderRadius: '50px',
-      justifyContent: 'center'
-    }
-  }
+      justifyContent: 'center',
+    },
+  },
   // FlexBox: {
   //   backgroundColor: 'green'
   // }
