@@ -44,10 +44,10 @@ const PortfolioShowcase = ({
     <Box {...sectionWrapper} as="section" id="portfolio_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Project ShowCase!" />
+          <Heading {...secTitle} content="Project Showcase" />
           <Text
             {...secDescription}
-            content="Over the last couple of years I have created numerous side projects to advance my programming capabilities. Feel free to take a look at what I've made and view the source code if you are interested."
+            content="Over the last couple of years I have created numerous side projects to advance my programming capabilities and learn new skills. Feel free to take a look at the finished products and source code if you are interested."
           />
         </Box>
 
