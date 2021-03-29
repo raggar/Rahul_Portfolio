@@ -2,7 +2,6 @@ import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
 import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
-import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
 
 import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
 import Awardee2 from '../../assets/image/portfolio/awardee-2.png';
@@ -14,7 +13,6 @@ import AwardImage3 from '../../assets/image/portfolio/award-3.png';
 import AwardImage4 from '../../assets/image/portfolio/award-4.png';
 
 import PortfolioImage1 from '../../assets/image/portfolio/portfolio-1.jpg';
-import PortfolioImage2 from '../../assets/image/portfolio/portfolio-2.jpg';
 
 import Step1 from '../../assets/image/portfolio/step-1.png';
 import Step2 from '../../assets/image/portfolio/step-2.png';
@@ -38,23 +36,19 @@ import Reviewer3 from '../../assets/image/portfolio/client-avatar-3.jpg';
 
 export const SOCIAL_PROFILES = [
   {
+    icon: socialGithub,
+    url: 'https://github.com/RahulAggarwal1016',
+  },
+  {
     icon: socialTwitter,
-    url: '#',
+    url: 'https://twitter.com/Rahul_1016',
   },
   {
     icon: socialFacebook,
-    url: '#',
+    url: 'https://www.facebook.com/RahulAggarwal1016/',
   },
   {
     icon: socialDribbbleOutline,
-    url: '#',
-  },
-  {
-    icon: socialGithub,
-    url: '#',
-  },
-  {
-    icon: socialGoogleplusOutline,
     url: '#',
   },
 ];
@@ -124,26 +118,23 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Shop.io',
         description:
-          'A fully functional ecommerce platform where users can browse, sell and checkout their favourite items. Features include user authentication, Stripe payments, password reset options etc.',
+          'A fully functional ecommerce platform where users can browse, sell, and checkout their favourite items. Features include user authentication, Stripe payments, password reset options etc.',
         image: PortfolioImage1,
         link: '#',
-        featuredIn: 'AWWWARDS',
         featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
         feedback: '1.2K',
         buildWith: [
           {
             content: 'Next JS',
           },
           {
-            content: 'Styled Component',
-          },
-          {
             content: 'Node JS',
           },
           {
             content: 'GraphQL',
+          },
+          {
+            content: 'Styled Components',
           },
         ],
       },
@@ -155,14 +146,10 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Chatter',
         description:
-          'full-stack social media application that helps people connect and communicate online. Registrants can communicate in real-time using private chat rooms as well as post public messages for others to see.',
+          'A full-stack social media application that helps people connect and communicate online. Users can communicate in real-time using private chat rooms as well as post public messages for others to view.',
         image: PortfolioImage1,
         link: '#',
-        featuredIn: 'AWWWARDS',
         featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
         buildWith: [
           {
             content: 'React JS',
@@ -172,6 +159,9 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: 'GraphQL',
+          },
+          {
+            content: 'Socket.io',
           },
         ],
       },
@@ -185,11 +175,7 @@ export const PORTFOLIO_SHOWCASE = [
         description: 'A mobile app that helps ....',
         image: PortfolioImage1,
         link: '#',
-        featuredIn: 'AWWWARDS',
         featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
         buildWith: [
           {
             content: 'React Native',

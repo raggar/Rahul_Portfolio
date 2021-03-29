@@ -6,16 +6,9 @@ const BannerWrapper = styled.section`
   display: flex;
   align-items: center;
   padding-top: 80px;
-  display: flex;
   align-items: flex-end;
   @media (min-width: 991px) {
-    min-height: 90vh;
-  }
-
-  .image_area {
-    @media (max-width: 767px) {
-      display: none;
-    }
+    min-height: 70vh;
   }
 `;
 

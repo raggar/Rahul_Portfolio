@@ -4,19 +4,17 @@ import Icon from 'react-icons-kit';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
 
 import { SOCIAL_PROFILES } from 'common/src/data/Portfolio/data';
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from 'common/src/assets/image/portfolio/person.png';
+import { flex } from 'styled-system';
 
 const BannerSection = ({
   row,
   contentArea,
-  imageArea,
   greetingStyle,
   nameStyle,
   designationStyle,
@@ -52,9 +50,6 @@ const BannerSection = ({
             />
             <SocialProfile items={SOCIAL_PROFILES} />
           </Box>
-          <Box {...imageArea} className="image_area">
-            <Image src={PersonImage} alt="Mat Helme" />
-          </Box>
         </Box>
       </Container>
     </BannerWrapper>
@@ -76,8 +71,10 @@ BannerSection.propTypes = {
 BannerSection.defaultProps = {
   row: {
     flexBox: true,
+    display: flex,
     flexWrap: 'wrap',
-    alignItems: 'stretch',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   contentArea: {
     width: ['100%', '100%', '50%', '40%'],
@@ -86,6 +83,7 @@ BannerSection.defaultProps = {
     flexWrap: 'wrap',
     justifyContent: 'center',
     flexDirection: 'column',
+    marginBottom: '50px',
   },
   imageArea: {
     width: ['100%', '100%', '50%', '60%'],
