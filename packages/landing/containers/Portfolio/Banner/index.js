@@ -32,7 +32,7 @@ const BannerSection = ({
             <Heading content="Hello, I’m" {...greetingStyle} />
             <Heading content="Rahul Aggarwal" {...nameStyle} />
             <Heading
-              content="Student, Creator, Tech-Enthusiast"
+              content="Software Engineering Student"
               {...designationStyle}
             />
             <Box {...roleWrapper}>

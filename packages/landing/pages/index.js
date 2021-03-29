@@ -26,7 +26,7 @@ export default () => {
   return (
     <ThemeProvider theme={portfolioTheme}>
       <Head>
-        <title>Rahul Portfolio</title>
+        <title>Rahul Aggarwal</title>
         <meta name="Description" content="React next landing page" />
         <meta name="theme-color" content="#ec5555" />
         <link
