@@ -83,12 +83,7 @@ BannerSection.defaultProps = {
     flexWrap: 'wrap',
     justifyContent: 'center',
     flexDirection: 'column',
-    marginBottom: '50px',
-  },
-  imageArea: {
-    width: ['100%', '100%', '50%', '60%'],
-    flexBox: true,
-    alignItems: 'flex-end',
+    marginBottom: '20px',
   },
   greetingStyle: {
     as: 'h3',
@@ -110,6 +105,7 @@ BannerSection.defaultProps = {
     fontSize: ['18px', '18px', '18px', '20px', '30px'],
     fontWeight: '700',
     mb: ['30px', '30px', '25px', '30px', '30px'],
+    mt: '5px',
   },
   roleWrapper: {
     flexBox: true,
