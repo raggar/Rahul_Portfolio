@@ -5,12 +5,8 @@ import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
 
 import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
 import Awardee2 from '../../assets/image/portfolio/awardee-2.png';
-import Awardee3 from '../../assets/image/portfolio/awardee-3.png';
-import Awardee4 from '../../assets/image/portfolio/awardee-4.png';
 import AwardImage1 from '../../assets/image/portfolio/award-1.png';
 import AwardImage2 from '../../assets/image/portfolio/award-2.png';
-import AwardImage3 from '../../assets/image/portfolio/award-3.png';
-import AwardImage4 from '../../assets/image/portfolio/award-4.png';
 
 import PortfolioImage1 from '../../assets/image/portfolio/portfolio-1.jpg';
 
@@ -79,35 +75,78 @@ export const MENU_ITEMS = [
 export const AWARDS = [
   {
     awardLogo: AwardImage1,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
+    awardName: 'YeeHaw Hacks Winner',
+    awardDetails: 'For the best use of Google Cloud',
     awardeeLogo: Awardee1,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardeeName: 'Major League Hacking',
+    date: 'August 2020',
   },
   {
     awardLogo: AwardImage2,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
+    awardName: 'Hack3 Overall Finalist',
+    awardDetails: 'Awarded to the top 3 overall teams',
     awardeeLogo: Awardee2,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardeeName: 'Hack3',
+    date: 'July 2020',
   },
   {
-    awardLogo: AwardImage3,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee3,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardLogo: AwardImage2,
+    awardName: 'SetHacks Category Winner',
+    awardDetails: 'Awarded to the top hack in the "community" category',
+    awardeeLogo: Awardee2,
+    awardeeName: 'SetHacks',
+    date: 'July 2020',
   },
   {
-    awardLogo: AwardImage4,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardLogo: AwardImage2,
+    awardName: 'Software Engineering Hackathon Winner',
+    awardDetails: 'Voted the top hack by the UW Software Engineering Cohort',
+    awardeeLogo: Awardee2,
+    awardeeName: 'University of Waterloo SE 25',
+    date: 'July 2020',
+  },
+  {
+    awardLogo: AwardImage2,
+    awardName: 'FinHacks Winner',
+    awardDetails: 'Placed 3rd overall amongst all teams',
+    awardeeLogo: Awardee2,
+    awardeeName: 'Toronto Youth Network',
+    date: 'November 2019',
+  },
+  {
+    awardLogo: AwardImage2,
+    awardName: 'PicoCTF - Outstanding Achievement',
+    awardDetails:
+      "Placed top 25 nationally in the World's largest cybersecurity competition",
+    awardeeLogo: Awardee2,
+    awardeeName: 'PicoCTF',
+    date: 'October 2019',
+  },
+  {
+    awardLogo: AwardImage2,
+    awardName: 'Hack Lassonde Winner',
+    awardDetails: 'Placed in the top 5 overall teams.',
+    awardeeLogo: Awardee2,
+    awardeeName: 'York University',
+    date: 'March 2019',
+  },
+  {
+    awardLogo: AwardImage2,
+    awardName: 'TORCH Event Finalist',
+    awardDetails:
+      "Placed in the 2nd in UoFT's annual Operations Research Challenge.",
+    awardeeLogo: Awardee2,
+    awardeeName: 'University of Toronto',
+    date: 'March 2019',
+  },
+  {
+    awardLogo: AwardImage2,
+    awardName: 'UWaterloo E3 Competition Winner',
+    awardDetails:
+      "Placed 1st overall in UWaterloo's Engaging in Entrepreneurship and Engineering Challenge.",
+    awardeeLogo: Awardee2,
+    awardeeName: 'University of Waterloo',
+    date: 'August 2018',
   },
 ];
 

@@ -18,11 +18,7 @@ const ProcessSection = ({
   secTitleWrapper,
   secTitle,
   secDescription,
-  processRow,
-  processCol,
-  processImageStyle,
-  processTitleStyle,
-  processDescriptionStyle,
+
   learningRow,
   learningContentArea,
   learningListArea,
@@ -51,55 +47,7 @@ const ProcessSection = ({
           />
         </Box>
 
-        <Box {...processRow}>
-          {PROCESS_STEPS.map((item, index) => (
-            <Box
-              {...processCol}
-              key={`process-item-${index}`}
-              className="process_item_col"
-            >
-              <ProcessItem className="process_item">
-                <Image
-                  src={item.image}
-                  alt={`process-image-${index + 1}`}
-                  {...processImageStyle}
-                />
-                <Heading as="h3" content={item.title} {...processTitleStyle} />
-                <Text content={item.description} {...processDescriptionStyle} />
-              </ProcessItem>
-            </Box>
-          ))}
-        </Box>
-
         <Box {...learningRow}>
-          <Box {...learningContentArea}>
-            <Heading
-              content="Which is why we Never Stop Learning."
-              {...learningTitle}
-            />
-            <Text
-              content="We believe that we succeed when our clients succeed."
-              {...learningSubTitle}
-            />
-            <Text
-              {...learningDescription}
-              content="I’m Tom Parkes, a New Zealand born digital designer currently looking for opportunities in Canada. Over the 8 years of my career, my portfolio includes user interface design, brand & identity design, illustration, and art & creative direction."
-            />
-            <Text
-              {...learningDescription}
-              content="While at Neverbland over the last few years, I've worked on web and product solutions for a range of startups, in a variety of industries."
-            />
-            <Box {...buttonWrapper}>
-              <Text content="Start Your Project ?" {...buttonLabelStyle} />
-              <ButtonWrapper>
-                <Button
-                  title="hello@redq.io"
-                  className="portfolio_button"
-                  {...buttonStyle}
-                />
-              </ButtonWrapper>
-            </Box>
-          </Box>
           <Box {...learningListArea}>
             {SERVICE_LIST.map((serviceList, index) => (
               <Box {...learningList} key={`serviceList-${index}`}>
@@ -256,6 +204,8 @@ ProcessSection.defaultProps = {
   learningListArea: {
     width: ['100%', '100%', '50%', '50%', '50%'],
     flexBox: true,
+    flexDirection: 'row',
+    justfiyContent: 'space-evenly',
     flexWrap: 'wrap',
   },
   learningList: {
