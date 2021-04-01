@@ -4,30 +4,18 @@ import { Icon } from 'react-icons-kit';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
-import Button from 'common/src/components/Button';
 import Container from 'common/src/components/UI/Container';
 import { plus } from 'react-icons-kit/feather/plus';
 
-import { ButtonWrapper } from '../../Portfolio/portfolio.style';
-import ProcessItem from './process.style';
-import { PROCESS_STEPS, SERVICE_LIST } from 'common/src/data/Portfolio/data';
+import { SERVICE_LIST } from 'common/src/data/Portfolio/data';
 
 const ProcessSection = ({
   sectionWrapper,
   secTitleWrapper,
   secTitle,
   secDescription,
-
   learningRow,
-  learningContentArea,
   learningListArea,
-  learningTitle,
-  learningSubTitle,
-  learningDescription,
-  buttonWrapper,
-  buttonLabelStyle,
-  buttonStyle,
   learningList,
   listItem,
   listText,
@@ -149,11 +137,12 @@ ProcessSection.defaultProps = {
   },
   learningRow: {
     flexBox: true,
-    flexWrap: 'wrap',
+    flexBox: 'wrap',
+    justifyContent: 'center',
     mt: ['20px', '30px', '70px', '80px', '110px'],
   },
   learningContentArea: {
-    width: ['100%', '100%', '50%', '50%', '50%'],
+    width: ['100%', '100%', '75%', '75%', '75%'],
     pr: ['0px', '0px', '60px', '80px', '160px'],
     mb: ['70px', '70px', '0', '0', '0'],
   },
@@ -203,10 +192,8 @@ ProcessSection.defaultProps = {
   },
   learningListArea: {
     width: ['100%', '100%', '50%', '50%', '50%'],
-    flexBox: true,
-    flexDirection: 'row',
-    justfiyContent: 'space-evenly',
     flexWrap: 'wrap',
+    flexBox: true,
   },
   learningList: {
     width: ['100%', '33.3333333%', '50%', '50%', '50%'],

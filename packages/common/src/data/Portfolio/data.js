@@ -248,9 +248,6 @@ export const PORTFOLIO_SHOWCASE = [
           {
             content: 'Rasberry PI',
           },
-          {
-            content: 'DC Motors',
-          },
         ],
       },
     ],
@@ -277,71 +274,62 @@ export const PORTFOLIO_SHOWCASE = [
   },
 ];
 
-export const PROCESS_STEPS = [
-  {
-    image: Step1,
-    title: '1. Research',
-    description:
-      'We work with you to understand user’s stories and validate your idea with real users using lean design sprints.',
-  },
-  {
-    image: Step2,
-    title: '2. Design',
-    description:
-      'Expanding on the insights gained, you’ll work closely with our design team to create an elegant design',
-  },
-  {
-    image: Step3,
-    title: '3. Build',
-    description:
-      'With our scrum-based agile methodology, you’ll receive iterative builds every two weeks, which gives you ',
-  },
-];
-
 export const SERVICE_LIST = [
   {
-    title: 'UI/UX Design',
+    title: 'Frontend Web Development',
     listItems: [
       {
-        content: 'Design Sprints',
+        content: 'HTML & CSS',
       },
       {
-        content: 'User Research',
+        content: 'React JS',
       },
       {
-        content: 'Visual Design',
+        content: 'Gatsby',
       },
       {
-        content: 'Mobile App Design',
+        content: 'Next JS',
       },
       {
-        content: 'Tracking & Learning',
+        content: 'Styled Components',
       },
       {
-        content: 'Building Traction',
+        content: 'Tailind CSS',
+      },
+      {
+        content: 'jQuery',
+      },
+      {
+        content: 'Semantic & Material UI',
       },
     ],
   },
   {
-    title: 'Web Development',
+    title: 'Backend Web Development',
     listItems: [
-      {
-        content: 'ReactJS',
-      },
-      {
-        content: 'AngularJS',
-      },
-      {
-        content: 'ASP.NET MVC',
-      },
-      {
-        content: 'WordPress',
-      },
       {
         content: 'NodeJS',
       },
       {
-        content: 'GO',
+        content: 'Flask',
+      },
+      {
+        content: 'GraphQL',
+      },
+      {
+        content: "REST API's",
+      },
+      {
+        content: 'Postgres',
+      },
+      {
+        content: 'MongoDB',
+      },
+      {
+        content: 'SQL',
+      },
+      {
+        content: 'Firebase',
       },
     ],
   },
@@ -349,22 +337,20 @@ export const SERVICE_LIST = [
     title: 'Mobile App Development',
     listItems: [
       {
-        content: 'iOS',
-      },
-      {
-        content: 'Android',
+        content: 'Swift (IOS)',
       },
       {
         content: 'React Native',
       },
       {
-        content: 'Ionic & Apache Cordova',
+        content: 'C',
       },
       {
-        content: 'NodeJS',
+        content: 'C++',
       },
+
       {
-        content: '3D & VR',
+        content: 'Node JS',
       },
     ],
   },
