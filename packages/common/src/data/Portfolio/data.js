@@ -47,10 +47,10 @@ export const SOCIAL_PROFILES = [
     icon: socialFacebook,
     url: 'https://www.facebook.com/RahulAggarwal1016/',
   },
-  {
-    icon: socialDribbbleOutline,
-    url: '#',
-  },
+  // {
+  //   icon: socialDribbbleOutline,
+  //   url: '#',
+  // },
 ];
 
 export const MENU_ITEMS = [
@@ -120,15 +120,16 @@ export const PORTFOLIO_SHOWCASE = [
         description:
           'A fully functional ecommerce platform where users can browse, sell, and checkout their favourite items. Features include user authentication, Stripe payments, password reset options etc.',
         image: PortfolioImage1,
-        link: '#',
-        featuredLink: '#',
-        feedback: '1.2K',
+        link: 'https://github.com/RahulAggarwal1016/Shop.io',
         buildWith: [
           {
             content: 'Next JS',
           },
           {
             content: 'Node JS',
+          },
+          {
+            content: 'Prisma',
           },
           {
             content: 'GraphQL',
@@ -148,8 +149,7 @@ export const PORTFOLIO_SHOWCASE = [
         description:
           'A full-stack social media application that helps people connect and communicate online. Users can communicate in real-time using private chat rooms as well as post public messages for others to view.',
         image: PortfolioImage1,
-        link: '#',
-        featuredLink: '#',
+        link: 'https://github.com/RahulAggarwal1016/Chatter',
         buildWith: [
           {
             content: 'React JS',
@@ -159,6 +159,9 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: 'GraphQL',
+          },
+          {
+            content: 'Semantic UI',
           },
           {
             content: 'Socket.io',
@@ -172,10 +175,10 @@ export const PORTFOLIO_SHOWCASE = [
     portfolioItem: [
       {
         title: 'Better Vote',
-        description: 'A mobile app that helps ....',
+        description:
+          'A cross platform mobile app that makes it easier for any organization (both poltical and apolitical) to operate democratically to make decisions.',
         image: PortfolioImage1,
-        link: '#',
-        featuredLink: '#',
+        link: 'https://github.com/RahulAggarwal1016/BetterVote',
         buildWith: [
           {
             content: 'React Native',
@@ -195,23 +198,19 @@ export const PORTFOLIO_SHOWCASE = [
     portfolioItem: [
       {
         title: 'Follakart',
-        description: 'Python stuff that ...',
+        description:
+          'An autonomous car that will track and follow a predefined object. Powered using Raspberry Pi, a camera module, and DC motors, Follakart will analyze video frames to locate and track an object near the centre of the camera frame.',
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'https://github.com/RahulAggarwal1016/Follakart',
         buildWith: [
           {
-            content: 'React JS',
+            content: 'Python/OpenCV',
           },
           {
-            content: 'Next JS',
+            content: 'Rasberry PI',
           },
           {
-            content: 'Styled Component',
+            content: 'DC Motors',
           },
         ],
       },
@@ -222,23 +221,16 @@ export const PORTFOLIO_SHOWCASE = [
     portfolioItem: [
       {
         title: 'LassoLearn',
-        description: 'Web app that',
+        description:
+          'A platform for users to engage in one-on-one discussions to teach and learn new skills.',
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'https://github.com/RahulAggarwal1016/Lasso_Learn',
         buildWith: [
           {
             content: 'React JS',
           },
           {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
+            content: 'Firebase',
           },
         ],
       },

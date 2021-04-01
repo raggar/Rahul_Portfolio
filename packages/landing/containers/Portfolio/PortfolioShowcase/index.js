@@ -47,7 +47,7 @@ const PortfolioShowcase = ({
           <Heading {...secTitle} content="Project Showcase" />
           <Text
             {...secDescription}
-            content="Over the last couple of years I have created numerous side projects to advance my programming capabilities and learn new skills. Feel free to take a look at the finished products and source code if you are interested."
+            content="I have spent the last couple of years creating numerous side projects to expore different areas of tech and learn new skills. Feel free to take a look at the source code and finished products if you are interested."
           />
         </Box>
 
@@ -94,7 +94,7 @@ const PortfolioShowcase = ({
                           <Box {...portfolioDetails}>
                             <PortfolioLink>
                               <Link href={portfolioItem.link || '#'}>
-                                <a>VISIT LIVE SITE</a>
+                                <a>VIEW SOURCE CODE</a>
                               </Link>
                             </PortfolioLink>
                             <Heading
