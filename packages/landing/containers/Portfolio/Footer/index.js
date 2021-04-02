@@ -8,7 +8,6 @@ import Heading from 'common/src/components/Heading';
 import Button from 'common/src/components/Button';
 import Input from 'common/src/components/Input';
 import Container from 'common/src/components/UI/Container';
-import SocialProfile from '../SocialProfile';
 
 import {
   FooterWrapper,
@@ -17,7 +16,6 @@ import {
   FooterNavItem,
 } from './footer.style';
 import { FOOTER_MENU } from 'common/src/data/Portfolio/data';
-import { SOCIAL_PROFILES } from 'common/src/data/Portfolio/data';
 import { heart } from 'react-icons-kit/fa/heart';
 
 const Footer = ({
@@ -27,10 +25,7 @@ const Footer = ({
   linkStyle,
   newsletterButton,
   copyrightStyle,
-  contactItem,
   flexBox,
-  contactTitle,
-  contactInfo,
   noMargin,
 }) => {
   return (
@@ -62,37 +57,6 @@ const Footer = ({
               />
               <Button {...newsletterButton} title="Subscribe" />
             </Newsletter>
-          </Box>
-        </Box>
-
-        <Box {...row}>
-          <Box {...col}>
-            <SocialProfile
-              className="footer_social"
-              items={SOCIAL_PROFILES}
-              iconSize={40}
-            />
-            <Text
-              as="span"
-              content="© 2018 All rights reserved. "
-              {...copyrightStyle}
-            />
-            <Link href="#">
-              <a>
-                {' '}
-                <Text as="span" content=" RedQ, Inc." {...copyrightStyle} />
-              </a>
-            </Link>
-          </Box>
-          <Box {...col} {...flexBox}>
-            <Box {...contactItem}>
-              <Text content="Need help?" {...contactTitle} />
-              <Text content="redq.io" {...contactInfo} />
-            </Box>
-            <Box {...contactItem}>
-              <Text content="Feel like talking" {...contactTitle} />
-              <Text content="+479-443-9334" {...contactInfo} />
-            </Box>
           </Box>
         </Box>
 

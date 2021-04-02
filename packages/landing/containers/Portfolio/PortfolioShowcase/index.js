@@ -44,10 +44,10 @@ const PortfolioShowcase = ({
     <Box {...sectionWrapper} as="section" id="portfolio_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Project Showcase" />
+          <Heading {...secTitle} content="I love building software." />
           <Text
             {...secDescription}
-            content="I have spent the last couple of years creating numerous side projects to expore different areas of tech and learn new skills. Feel free to take a look at the source code and finished products if you are interested."
+            content="Throughout my years attending hackathons and exploring new technologies I have created a numerous side projects. Below are some of my most memorable and favourite. Feel free to take a look at the source code and finished products if you are interested."
           />
         </Box>
 
@@ -97,6 +97,7 @@ const PortfolioShowcase = ({
                                 <a>VIEW SOURCE CODE</a>
                               </Link>
                             </PortfolioLink>
+                            {/* Add hyperlink to live websites */}
                             <Heading
                               content={portfolioItem.title}
                               {...titleStyle}

@@ -30,7 +30,7 @@ const BannerSection = ({
             <Heading content="Hello, I’m" {...greetingStyle} />
             <Heading content="Rahul Aggarwal" {...nameStyle} />
             <Heading
-              content="Software Engineering Student"
+              content="Software Engineering at UWaterloo"
               {...designationStyle}
             />
             <Box {...roleWrapper}>
@@ -45,7 +45,7 @@ const BannerSection = ({
               />
             </Box>
             <Text
-              content="An 18 year-old student developer who is passionate about Machine Learning Research, IOS Development and the World Wide Web."
+              content="An 18 year-old student developer who is passionate about Machine Learning, App infrastructure, and creating for the World Wide Web."
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />
@@ -83,7 +83,8 @@ BannerSection.defaultProps = {
     flexWrap: 'wrap',
     justifyContent: 'center',
     flexDirection: 'column',
-    marginBottom: '20px',
+    marginBottom: '0px',
+    marginTop: '-30px',
   },
   greetingStyle: {
     as: 'h3',

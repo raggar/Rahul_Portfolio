@@ -9,7 +9,7 @@ import Container from 'common/src/components/UI/Container';
 
 import { ButtonWrapper } from '../../Portfolio/portfolio.style';
 import { ActiveStatus } from './contact.style';
-import Author from 'common/src/assets/image/portfolio/avatar.png';
+import Avatar from 'common/src/assets/image/portfolio/avatar.jpg';
 
 const ContactSection = ({
   sectionWrapper,
@@ -25,15 +25,15 @@ const ContactSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Let’s Work Together" />
+          <Heading {...secTitle} content="Let’s Work Together." />
           <Text
             {...secDescription}
-            content="If you have a website or mobile app idea in mind or you need some advice about product design, feel free to contact me. Currently my time books quickly, so the sooner you write, the better it is for both of us."
+            content="If you have a website or mobile app idea in mind or you need some advice about anything tech related feel free to contact me."
           />
         </Box>
         <Box {...replyWrapper}>
           <ActiveStatus>
-            <Image src={Author} alt="Author Avatar" />
+            <Image src={Avatar} alt="Author Avatar" />
           </ActiveStatus>
           <Heading
             as="h4"
@@ -44,7 +44,7 @@ const ContactSection = ({
         <Box {...buttonWrapper}>
           <ButtonWrapper>
             <Button
-              title="hello@redq.io"
+              title="rahulaggarwal1016@gmail.com"
               className="portfolio_button"
               {...buttonStyle}
             />

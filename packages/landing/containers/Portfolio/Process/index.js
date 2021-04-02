@@ -25,13 +25,10 @@ const ProcessSection = ({
     <Box {...sectionWrapper} as="section" id="process_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading
-            {...secTitle}
-            content="From Lean Design Sprints to Agile Development"
-          />
+          <Heading {...secTitle} content="Never Stop Learning." />
           <Text
             {...secDescription}
-            content="Our process is designed to give you the best shot at success."
+            content="I am always looking to advance myself as a self-taught programmer and tech-enthusiast."
           />
         </Box>
 
@@ -151,6 +148,9 @@ ProcessSection.defaultProps = {
     fontWeight: '700',
     color: '#302b4e',
     lineHeight: '1.34',
+    flexBox: true,
+    justifyContent: 'center',
+    alignItems: 'center',
     mb: ['20px', '20px', '15px', '20px', '20px'],
     pr: ['0', '0', '0', '65px', '65px'],
   },
@@ -191,21 +191,26 @@ ProcessSection.defaultProps = {
     pr: '23px',
   },
   learningListArea: {
-    width: ['100%', '100%', '50%', '50%', '50%'],
-    flexWrap: 'wrap',
+    width: ['100%', '100%', '100%', '100%', '100%'],
     flexBox: true,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   learningList: {
-    width: ['100%', '33.3333333%', '50%', '50%', '50%'],
+    width: ['100%', '33.3333333%', '100%', '100%', '100%'],
     pl: ['0', '0', '35px', '35px', '35x'],
-    pr: ['0', '30px', '0', '0', '0'],
-    mb: ['40px', '40px', '60px', '80px', '90px'],
+    pr: ['0', '0px', '0', '0', '0'],
+    mb: '0px',
+    flexBox: true,
+    flexDirection: 'column',
+    alignItems: 'center',
   },
   listTitle: {
     fontSize: '20px',
     fontWeight: '600',
     color: '#302b4e',
     mb: '25px',
+    textAlign: 'center',
   },
   listItem: {
     flexBox: true,
