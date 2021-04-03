@@ -5,23 +5,23 @@ import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 
 // award logo's
-import MLH from '../../assets/image/portfolio/mlh.png';
-import Hack3 from '../../assets/image/portfolio/hack3.jpeg';
-import UFT from '../../assets/image/portfolio/uft.png';
-import Waterloo from '../../assets/image/portfolio/uwaterloo.png';
-import SetHacks from '../../assets/image/portfolio/sethacks.png';
-import TYN from '../../assets/image/portfolio/tyn.png';
-import PicoCTF from '../../assets/image/portfolio/picoctf.jpeg';
+import MLH from '../../assets/image/mlh.png';
+import Hack3 from '../../assets/image/hack3.jpeg';
+import UFT from '../../assets/image/uft.png';
+import Waterloo from '../../assets/image/uwaterloo.png';
+import SetHacks from '../../assets/image/sethacks.png';
+import TYN from '../../assets/image/tyn.png';
+import PicoCTF from '../../assets/image/picoctf.jpeg';
 
-import PortfolioImage1 from '../../assets/image/portfolio/portfolio-1.jpg';
+import PortfolioImage1 from '../../assets/image/portfolio-1.jpg';
 
 // organizations
-import Remitbee from '../../assets/image/portfolio/remitbee.png';
-import HTN from '../../assets/image/portfolio/htn.png';
-import Waterloop from '../../assets/image/portfolio/waterloop.png';
-import EntSoc from '../../assets/image/portfolio/entsoc.png';
-import AirMatrix from '../../assets/image/portfolio/airmatrix.png';
-import WavesEG from '../../assets/image/portfolio/waveseg.png';
+import Remitbee from '../../assets/image/remitbee.png';
+import HTN from '../../assets/image/htn.png';
+import Waterloop from '../../assets/image/waterloop.png';
+import EntSoc from '../../assets/image/entsoc.png';
+import AirMatrix from '../../assets/image/airmatrix.png';
+import WavesEG from '../../assets/image/waveseg.png';
 
 export const CLIENTS = [
   {

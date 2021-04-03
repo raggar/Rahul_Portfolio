@@ -13,8 +13,8 @@ import { DrawerContext } from 'common/src/contexts/DrawerContext';
 import { MENU_ITEMS } from 'common/src/data/Portfolio/data';
 import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
 
-import LogoImage from 'common/src/assets/image/portfolio/logo.png';
-import LogoImageAlt from 'common/src/assets/image/portfolio/logo-alt.png';
+import LogoImage from 'common/src/assets/image/logo.png';
+import LogoImageAlt from 'common/src/assets/image/logo-alt.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -22,7 +22,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   // Toggle drawer
   const toggleHandler = () => {
     dispatch({
-      type: 'TOGGLE'
+      type: 'TOGGLE',
     });
   };
 
@@ -86,22 +86,22 @@ Navbar.propTypes = {
   logoStyle: PropTypes.object,
   button: PropTypes.object,
   row: PropTypes.object,
-  menuWrapper: PropTypes.object
+  menuWrapper: PropTypes.object,
 };
 
 Navbar.defaultProps = {
   navbarStyle: {
     minHeight: '70px',
-    display: 'block'
+    display: 'block',
   },
   row: {
     flexBox: true,
     justifyContent: 'space-between',
     alignItems: 'center',
-    width: '100%'
+    width: '100%',
   },
   logoStyle: {
-    maxWidth: ['120px', '130px']
+    maxWidth: ['120px', '130px'],
   },
   button: {
     type: 'button',
@@ -109,12 +109,12 @@ Navbar.defaultProps = {
     pl: '0',
     pr: '0',
     colors: 'primary',
-    minHeight: 'auto'
+    minHeight: 'auto',
   },
   menuWrapper: {
     flexBox: true,
-    alignItems: 'center'
-  }
+    alignItems: 'center',
+  },
 };
 
 export default Navbar;

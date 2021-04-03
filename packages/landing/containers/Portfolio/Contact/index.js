@@ -9,7 +9,7 @@ import Container from 'common/src/components/UI/Container';
 
 import { ButtonWrapper } from '../../Portfolio/portfolio.style';
 import { ActiveStatus } from './contact.style';
-import Avatar from 'common/src/assets/image/portfolio/avatar.jpg';
+import Avatar from 'common/src/assets/image/avatar.jpg';
 
 const ContactSection = ({
   sectionWrapper,
