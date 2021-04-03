@@ -7,7 +7,7 @@ import Heading from 'common/src/components/Heading';
 import Container from 'common/src/components/UI/Container';
 import { plus } from 'react-icons-kit/feather/plus';
 
-import { SERVICE_LIST } from 'common/src/data/Portfolio/data';
+import { SKILLS } from 'common/src/data/Portfolio/data';
 
 const ProcessSection = ({
   sectionWrapper,
@@ -34,10 +34,10 @@ const ProcessSection = ({
 
         <Box {...learningRow}>
           <Box {...learningListArea}>
-            {SERVICE_LIST.map((serviceList, index) => (
-              <Box {...learningList} key={`serviceList-${index}`}>
-                <Heading content={serviceList.title} {...listTitle} />
-                {serviceList.listItems.map((item, index) => (
+            {SKILLS.map((skill, index) => (
+              <Box {...learningList} key={`skill-${index}`}>
+                <Heading content={skill.title} {...listTitle} />
+                {skill.listItems.map((item, index) => (
                   <Box {...listItem} key={`list-item-${index}`}>
                     <Icon icon={item.icon || plus} size={item.iconSize || 12} />
                     <Text as="span" content={item.content} {...listText} />

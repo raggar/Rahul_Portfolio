@@ -29,6 +29,7 @@ const ClientsSection = ({
         <Box {...row}>
           {CLIENTS.map((item, index) => (
             <ClientsImage key={`client-${index}`}>
+              {/* add link to image website */}
               <Image src={item.image} alt={item.title} title={item.title} />
             </ClientsImage>
           ))}
