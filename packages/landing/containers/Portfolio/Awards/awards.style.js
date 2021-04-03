@@ -36,6 +36,7 @@ export const AwardItem = styled.div`
   padding: 50px 30px;
   background: #fff;
   border-radius: 10px;
+  height: 100%;
   @media (max-width: 1200px) {
     padding: 40px 20px;
   }

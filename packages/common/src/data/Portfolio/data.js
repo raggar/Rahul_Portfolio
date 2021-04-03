@@ -4,8 +4,14 @@ import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
 import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 
-import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
-import Awardee2 from '../../assets/image/portfolio/awardee-2.png';
+// award logo's
+import MLH from '../../assets/image/portfolio/mlh.png';
+import Hack3 from '../../assets/image/portfolio/hack3.jpeg';
+import UFT from '../../assets/image/portfolio/uft.png';
+import Waterloo from '../../assets/image/portfolio/waterloo.png';
+import SetHacks from '../../assets/image/portfolio/sethacks.png';
+import TYN from '../../assets/image/portfolio/tyn.png';
+import PicoCTF from '../../assets/image/portfolio/picoctf.jpeg';
 
 import PortfolioImage1 from '../../assets/image/portfolio/portfolio-1.jpg';
 
@@ -90,35 +96,35 @@ export const AWARDS = [
   {
     awardName: 'YeeHaw Hacks Winner',
     awardDetails: 'For the best use of Google Cloud',
-    awardeeLogo: Awardee1,
+    awardeeLogo: MLH,
     awardeeName: 'Major League Hacking',
     date: 'August 2020',
   },
   {
     awardName: 'Hack3 Overall Finalist',
     awardDetails: 'Awarded to the top 3 overall teams',
-    awardeeLogo: Awardee2,
+    awardeeLogo: Hack3,
     awardeeName: 'Hack3',
     date: 'July 2020',
   },
   {
     awardName: 'SetHacks Category Winner',
     awardDetails: 'Awarded to the top hack in the "community" category',
-    awardeeLogo: Awardee2,
+    awardeeLogo: SetHacks,
     awardeeName: 'SetHacks',
     date: 'July 2020',
   },
   {
     awardName: 'Software Engineering Hackathon Winner',
     awardDetails: "Voted the top hack by UW's Software Engineering Cohort",
-    awardeeLogo: Awardee2,
+    awardeeLogo: Waterloo,
     awardeeName: 'University of Waterloo SE 25',
     date: 'July 2020',
   },
   {
     awardName: 'FinHacks Winner',
     awardDetails: 'Placed 3rd overall amongst all teams',
-    awardeeLogo: Awardee2,
+    awardeeLogo: TYN,
     awardeeName: 'Toronto Youth Network',
     date: 'November 2019',
   },
@@ -126,22 +132,22 @@ export const AWARDS = [
     awardName: 'PicoCTF - Outstanding Achievement',
     awardDetails:
       "Placed top 25 nationally in the World's largest cybersecurity competition",
-    awardeeLogo: Awardee2,
+    awardeeLogo: PicoCTF,
     awardeeName: 'PicoCTF',
     date: 'October 2019',
   },
   {
     awardName: 'Hack Lassonde Winner',
     awardDetails: 'Placed top 5 overall amongst all teams.',
-    awardeeLogo: Awardee2,
-    awardeeName: 'York University',
+    awardeeLogo: MLH,
+    awardeeName: 'Major League Hacking',
     date: 'March 2019',
   },
   {
     awardName: 'TORCH Event Finalist',
     awardDetails:
       "Placed in the 2nd in UoFT's annual Operations Research Challenge.",
-    awardeeLogo: Awardee2,
+    awardeeLogo: UFT,
     awardeeName: 'University of Toronto',
     date: 'March 2019',
   },
@@ -149,7 +155,7 @@ export const AWARDS = [
     awardName: 'UWaterloo E3 Competition Winner',
     awardDetails:
       "Placed 1st overall in UWaterloo's Engaging in Entrepreneurship and Engineering Challenge.",
-    awardeeLogo: Awardee2,
+    awardeeLogo: Waterloo,
     awardeeName: 'University of Waterloo',
     date: 'August 2018',
   },
