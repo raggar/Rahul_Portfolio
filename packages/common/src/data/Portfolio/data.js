@@ -8,7 +8,7 @@ import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 import MLH from '../../assets/image/portfolio/mlh.png';
 import Hack3 from '../../assets/image/portfolio/hack3.jpeg';
 import UFT from '../../assets/image/portfolio/uft.png';
-import Waterloo from '../../assets/image/portfolio/waterloo.png';
+import Waterloo from '../../assets/image/portfolio/uwaterloo.png';
 import SetHacks from '../../assets/image/portfolio/sethacks.png';
 import TYN from '../../assets/image/portfolio/tyn.png';
 import PicoCTF from '../../assets/image/portfolio/picoctf.jpeg';
