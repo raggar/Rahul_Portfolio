@@ -1,15 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Box from 'common/src/components/Box';
-import Text from 'common/src/components/Text';
-import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
-import Button from 'common/src/components/Button';
-import Container from 'common/src/components/UI/Container';
+import React from "react";
+import PropTypes from "prop-types";
+import Box from "common/src/components/Box";
+import Text from "common/src/components/Text";
+import Heading from "common/src/components/Heading";
+import Button from "common/src/components/Button";
+import Container from "common/src/components/UI/Container";
 
-import { ButtonWrapper } from '../../Portfolio/portfolio.style';
-import { ActiveStatus } from './contact.style';
-import Avatar from 'common/src/assets/image/avatar.jpg';
+import { ButtonWrapper } from "../../Portfolio/portfolio.style";
+// import { ActiveStatus } from "./contact.style";
 
 const ContactSection = ({
   sectionWrapper,
@@ -25,16 +23,13 @@ const ContactSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Let’s Work Together." />
+          <Heading {...secTitle} content="Work Together?" />
           <Text
             {...secDescription}
             content="If you have a website or mobile app idea in mind or you need some advice about anything tech related feel free to contact me."
           />
         </Box>
         <Box {...replyWrapper}>
-          <ActiveStatus>
-            <Image src={Avatar} alt="Author Avatar" />
-          </ActiveStatus>
           <Heading
             as="h4"
             content="Reply time: within 1-2 working days"
@@ -68,56 +63,56 @@ ContactSection.propTypes = {
 
 ContactSection.defaultProps = {
   sectionWrapper: {
-    pt: ['70px', '80px', '100px', '110px', '140px'],
-    pb: ['70px', '80px', '100px', '110px', '140px'],
-    bg: '#f9f9f9',
+    pt: ["70px", "80px", "100px", "110px", "140px"],
+    pb: ["70px", "80px", "100px", "110px", "140px"],
+    bg: "#f9f9f9",
   },
   secTitleWrapper: {
-    mb: '30px',
+    mb: "30px",
   },
   secTitle: {
-    fontSize: ['22px', '26px', '26px', '30px', '30px'],
-    fontWeight: '600',
-    color: '#302b4e',
-    lineHeight: '1.34',
-    mb: ['15px', '18px', '18px', '20px', '20px'],
-    textAlign: 'center',
+    fontSize: ["22px", "26px", "26px", "30px", "30px"],
+    fontWeight: "600",
+    color: "#302b4e",
+    lineHeight: "1.34",
+    mb: ["15px", "18px", "18px", "20px", "20px"],
+    textAlign: "center",
   },
   secDescription: {
-    fontSize: ['15px', '16px'],
-    fontWeight: '400',
-    color: '#43414e',
-    lineHeight: '1.5',
-    textAlign: 'center',
-    width: '600px',
-    maxWidth: '100%',
-    ml: 'auto',
-    mr: 'auto',
-    mb: '0',
+    fontSize: ["15px", "16px"],
+    fontWeight: "400",
+    color: "#43414e",
+    lineHeight: "1.5",
+    textAlign: "center",
+    width: "600px",
+    maxWidth: "100%",
+    ml: "auto",
+    mr: "auto",
+    mb: "0",
   },
   replyWrapper: {
     flexBox: true,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
   },
   replyTime: {
-    fontSize: '16px',
-    fontWeight: '600',
-    color: '#302b4e',
+    fontSize: "16px",
+    fontWeight: "600",
+    color: "#302b4e",
     mb: 0,
   },
   buttonStyle: {
-    type: 'button',
-    fontSize: '16px',
-    fontWeight: '500',
-    color: '#fff',
-    pl: '23px',
-    pr: '23px',
+    type: "button",
+    fontSize: "16px",
+    fontWeight: "500",
+    color: "#fff",
+    pl: "23px",
+    pr: "23px",
   },
   buttonWrapper: {
     flexBox: true,
-    justifyContent: 'center',
-    mt: '50px',
+    justifyContent: "center",
+    mt: "50px",
   },
 };
 

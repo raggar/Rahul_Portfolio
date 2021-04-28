@@ -38,6 +38,7 @@
     "install-deps": "cd \"dist/functions\" && yarn",
     "netlify-deploy": "yarn workspace next-landing run netlify-build"
   },
+  "prettier": {},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"

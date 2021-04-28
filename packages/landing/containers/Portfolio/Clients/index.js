@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Box from 'common/src/components/Box';
-import Text from 'common/src/components/Text';
-import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
-import Container from 'common/src/components/UI/Container';
+import React from "react";
+import PropTypes from "prop-types";
+import Box from "common/src/components/Box";
+import Text from "common/src/components/Text";
+import Heading from "common/src/components/Heading";
+import Image from "common/src/components/Image";
+import Container from "common/src/components/UI/Container";
 
-import { CLIENTS } from 'common/src/data/Portfolio/data';
-import { ClientsImage } from './clients.style';
+import { CLIENTS } from "common/src/data/Portfolio/data";
+import { ClientsImage } from "./clients.style";
 
 const ClientsSection = ({
   sectionWrapper,
@@ -20,17 +20,21 @@ const ClientsSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="I can help build your story." />
+          <Heading {...secTitle} content="Let's build your story." />
           <Text
             {...secDescription}
             content="Through the years I have worked with several great companies, startups and organizations."
           />
         </Box>
         <Box {...row}>
-          {CLIENTS.map((item, index) => (
+          {CLIENTS.map((client, index) => (
             <ClientsImage key={`client-${index}`}>
-              {/* add link to image website */}
-              <Image src={item.image} alt={item.title} title={item.title} />
+              <Image
+                src={client.image}
+                alt={client.title}
+                title={client.title}
+                onClick={() => window.open(client.url)}
+              />
             </ClientsImage>
           ))}
         </Box>
@@ -49,33 +53,33 @@ ClientsSection.propTypes = {
 
 ClientsSection.defaultProps = {
   sectionWrapper: {
-    pt: ['40px', '60px', '80px', '80px', '80px'],
-    pb: ['60px', '80px', '100px', '130px', '130px'],
+    pt: ["40px", "60px", "80px", "80px", "80px"],
+    pb: ["60px", "80px", "100px", "130px", "130px"],
   },
   secTitleWrapper: {
-    mb: '60px',
+    mb: "60px",
   },
   secTitle: {
-    fontSize: ['22px', '26px', '26px', '30px', '30px'],
-    fontWeight: '700',
-    color: '#302b4e',
-    lineHeight: '1.34',
-    mb: ['15px', '18px', '18px', '20px', '20px'],
-    textAlign: 'center',
+    fontSize: ["22px", "26px", "26px", "30px", "30px"],
+    fontWeight: "700",
+    color: "#302b4e",
+    lineHeight: "1.34",
+    mb: ["15px", "18px", "18px", "20px", "20px"],
+    textAlign: "center",
   },
   secDescription: {
-    fontSize: '16px',
-    fontWeight: '400',
-    color: '#43414e',
-    lineHeight: '1.5',
-    mb: '0',
-    textAlign: 'center',
+    fontSize: "16px",
+    fontWeight: "400",
+    color: "#43414e",
+    lineHeight: "1.5",
+    mb: "0",
+    textAlign: "center",
   },
   row: {
     flexBox: true,
-    flexWrap: 'wrap',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flexWrap: "wrap",
+    alignItems: "center",
+    justifyContent: "center",
   },
 };
 
