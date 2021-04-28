@@ -1,16 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Box from 'common/src/components/Box';
-import Text from 'common/src/components/Text';
-import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
-import Container from 'common/src/components/UI/Container';
-import GlideCarousel from 'common/src/components/GlideCarousel';
-import GlideSlide from 'common/src/components/GlideCarousel/glideSlide';
+import React from "react";
+import PropTypes from "prop-types";
+import Box from "common/src/components/Box";
+import Text from "common/src/components/Text";
+import Heading from "common/src/components/Heading";
+import Image from "common/src/components/Image";
+import Container from "common/src/components/UI/Container";
+import GlideCarousel from "common/src/components/GlideCarousel";
+import GlideSlide from "common/src/components/GlideCarousel/glideSlide";
 
-import { AWARDS } from 'common/src/data/Portfolio/data';
+import { AWARDS } from "common/src/data/Portfolio/data";
 
-import { PrevButton, NextButton } from '../portfolio.style';
+import { PrevButton, NextButton } from "../portfolio.style";
 import {
   AwardSectionWrapper,
   AwardItem,
@@ -18,13 +18,12 @@ import {
   AwardeeLogo,
   AwardeeDetails,
   AwardImageWrapper,
-} from './awards.style';
+} from "./awards.style";
 
 const AwardsSection = ({
   secTitleWrapper,
   secTitle,
   secDescription,
-  awardLogoStyle,
   awardNameStyle,
   awardDetailsStyle,
   awardeeLogoStyle,
@@ -33,7 +32,7 @@ const AwardsSection = ({
 }) => {
   //Carousel Options
   const carouselOptions = {
-    type: 'carousel',
+    type: "carousel",
     autoplay: 4000,
     perView: 4,
     gap: 30,
@@ -61,7 +60,7 @@ const AwardsSection = ({
           />
           <Text
             {...secDescription}
-            content="Having particpated in several hackathons, business and tech competitions I have listed some of my most notable and proud achievements below. It feels great to be appreciated!"
+            content="Below are some of my most notable and proud achievements. It feels great to be appreciated!"
           />
         </Box>
 
@@ -88,6 +87,8 @@ const AwardsSection = ({
                   <AwardeeWrapper>
                     <AwardeeLogo>
                       <Image
+                        onClick={() => window.open(award.awardeeUrl)}
+                        style={{ cursor: "pointer" }}
                         src={award.awardeeLogo}
                         alt={`awardee-logo-${index}`}
                         {...awardeeLogoStyle}
@@ -125,55 +126,55 @@ AwardsSection.propTypes = {
 
 AwardsSection.defaultProps = {
   secTitleWrapper: {
-    width: ['100%', '100%', '60%', '50%', '50%'],
-    mb: '90px',
+    width: ["100%", "100%", "60%", "50%", "50%"],
+    mb: "90px",
   },
   secTitle: {
-    fontSize: ['22px', '26px', '26px', '30px', '30px'],
-    fontWeight: '600',
-    color: '#302b4e',
-    lineHeight: '1.34',
-    mb: ['15px', '18px', '18px', '20px', '20px'],
+    fontSize: ["22px", "26px", "26px", "30px", "30px"],
+    fontWeight: "600",
+    color: "#302b4e",
+    lineHeight: "1.34",
+    mb: ["15px", "18px", "18px", "20px", "20px"],
   },
   secDescription: {
-    fontSize: ['15px', '16px'],
-    fontWeight: '400',
-    color: '#43414e',
-    lineHeight: '1.5',
-    mb: '0',
+    fontSize: ["15px", "16px"],
+    fontWeight: "400",
+    color: "#43414e",
+    lineHeight: "1.5",
+    mb: "0",
   },
   awardLogoStyle: {
-    ml: 'auto',
-    mr: 'auto',
-    mb: '25px',
+    ml: "auto",
+    mr: "auto",
+    mb: "25px",
   },
   awardNameStyle: {
-    fontSize: ['16px', '16px', '18px', '20px'],
-    fontWeight: '600',
-    color: '#302b4e',
-    lineHeight: '1.35',
-    textAlign: 'center',
-    mb: '17px',
+    fontSize: ["16px", "16px", "18px", "20px"],
+    fontWeight: "600",
+    color: "#302b4e",
+    lineHeight: "1.35",
+    textAlign: "center",
+    mb: "17px",
   },
   awardDetailsStyle: {
-    fontSize: ['15px', '15px', '15px', '16px'],
-    color: '#43414e',
-    lineHeight: '1.5',
-    textAlign: 'center',
-    mb: '0',
+    fontSize: ["15px", "15px", "15px", "16px"],
+    color: "#43414e",
+    lineHeight: "1.5",
+    textAlign: "center",
+    mb: "0",
   },
   awardeeNameStyle: {
-    fontSize: '16px',
-    color: '#9391a5',
-    lineHeight: '1.35',
-    fontWeight: '600',
-    mb: '4px',
+    fontSize: "16px",
+    color: "#9391a5",
+    lineHeight: "1.35",
+    fontWeight: "600",
+    mb: "4px",
   },
   awardDateStyle: {
-    fontSize: '12px',
-    color: '#9391a5',
-    lineHeight: '1.35',
-    mb: '0',
+    fontSize: "12px",
+    color: "#9391a5",
+    lineHeight: "1.35",
+    mb: "0",
   },
 };
 

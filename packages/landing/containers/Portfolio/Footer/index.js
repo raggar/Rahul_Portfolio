@@ -1,22 +1,16 @@
-import React from 'react';
-import Link from 'next/link';
-import PropTypes from 'prop-types';
-import { Icon } from 'react-icons-kit';
-import Box from 'common/src/components/Box';
-import Text from 'common/src/components/Text';
-import Heading from 'common/src/components/Heading';
-import Button from 'common/src/components/Button';
-import Input from 'common/src/components/Input';
-import Container from 'common/src/components/UI/Container';
+import React from "react";
+import Link from "next/link";
+import PropTypes from "prop-types";
+import { Icon } from "react-icons-kit";
+import Box from "common/src/components/Box";
+import Text from "common/src/components/Text";
+import Heading from "common/src/components/Heading";
+import Button from "common/src/components/Button";
+import Input from "common/src/components/Input";
+import Container from "common/src/components/UI/Container";
 
-import {
-  FooterWrapper,
-  Newsletter,
-  FooterNav,
-  FooterNavItem,
-} from './footer.style';
-import { FOOTER_MENU } from 'common/src/data/Portfolio/data';
-import { heart } from 'react-icons-kit/fa/heart';
+import { FooterWrapper, Newsletter } from "./footer.style";
+import { heart } from "react-icons-kit/fa/heart";
 
 const Footer = ({
   row,
@@ -25,7 +19,6 @@ const Footer = ({
   linkStyle,
   newsletterButton,
   copyrightStyle,
-  flexBox,
   noMargin,
 }) => {
   return (
@@ -69,17 +62,6 @@ const Footer = ({
             />
             <Icon icon={heart} size={14} className="heart_sign" />
           </Box>
-          <Box {...col} {...flexBox}>
-            <FooterNav>
-              {FOOTER_MENU.map((item, index) => (
-                <FooterNavItem key={`footer-nav-item-${index}`}>
-                  <Link href={item.path || '#'}>
-                    <a>{item.label}</a>
-                  </Link>
-                </FooterNavItem>
-              ))}
-            </FooterNav>
-          </Box>
         </Box>
       </Container>
     </FooterWrapper>
@@ -103,59 +85,62 @@ Footer.propTypes = {
 Footer.defaultProps = {
   row: {
     flexBox: true,
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
-    ml: '-15px',
-    mr: '-15px',
-    mb: ['0', '70px', '80px', '100px', '100px'],
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    ml: "-15px",
+    mr: "-15px",
+    mb: ["0", "70px", "80px", "100px", "100px"],
   },
   col: {
     width: [1, 1 / 2, 1 / 2, 1 / 3, 1 / 3],
-    pl: '15px',
-    pr: '15px',
-    mb: ['40px', '0', '0', '0', '0', '0'],
+    pl: "15px",
+    pr: "15px",
+    mb: ["40px", "0", "0", "0", "0", "0"],
   },
   titleStyle: {
-    fontSize: ['16px', '18px'],
-    fontWeight: '600',
-    mb: ['20px', '25px'],
+    fontSize: ["16px", "18px"],
+    fontWeight: "600",
+    mb: ["20px", "25px"],
   },
   linkStyle: {
-    fontSize: ['22px', '26px', '26px', '30px'],
-    color: '#3444f1',
+    fontSize: ["22px", "26px", "26px", "30px"],
+    color: "#3444f1",
     mb: 0,
   },
   newsletterButton: {
-    type: 'button',
-    fontSize: '16px',
-    pl: '20px',
-    pr: '20px',
-    colors: 'primary',
-    minHeight: 'auto',
+    type: "button",
+    fontSize: "16px",
+    pl: "20px",
+    pr: "20px",
+    colors: "primary",
+    minHeight: "auto",
+    onClick: () => {
+      console.log("Button clicked!");
+    },
   },
   copyrightStyle: {
-    fontSize: '14px',
-    color: '#fff',
+    fontSize: "14px",
+    color: "#fff",
   },
   flexBox: {
     flexBox: true,
-    justifyContent: 'space-between',
+    justifyContent: "space-between",
     // flexWrap: 'wrap'
   },
   contactItem: {
     // width: 1 / 2
   },
   contactTitle: {
-    fontSize: ['15x', '15px', '16px', '16px', '16px'],
-    mb: '10px',
+    fontSize: ["15x", "15px", "16px", "16px", "16px"],
+    mb: "10px",
   },
   contactInfo: {
-    fontSize: ['16x', '16px', '18px', '18px', '20px'],
-    fontWeight: '500',
+    fontSize: ["16x", "16px", "18px", "18px", "20px"],
+    fontWeight: "500",
     mb: 0,
   },
   noMargin: {
-    mb: '0',
+    mb: "0",
   },
 };
 

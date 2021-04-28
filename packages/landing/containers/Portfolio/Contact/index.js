@@ -23,7 +23,7 @@ const ContactSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Work Together?" />
+          <Heading {...secTitle} content="Lets Work Together" />
           <Text
             {...secDescription}
             content="If you have a website or mobile app idea in mind or you need some advice about anything tech related feel free to contact me."

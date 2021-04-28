@@ -20,7 +20,7 @@ const ClientsSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Let's build your story." />
+          <Heading {...secTitle} content="I want to build your story." />
           <Text
             {...secDescription}
             content="Through the years I have worked with several great companies, startups and organizations."
@@ -30,6 +30,9 @@ const ClientsSection = ({
           {CLIENTS.map((client, index) => (
             <ClientsImage key={`client-${index}`}>
               <Image
+                style={{
+                  cursor: "pointer",
+                }}
                 src={client.image}
                 alt={client.title}
                 title={client.title}

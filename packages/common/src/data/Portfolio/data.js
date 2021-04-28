@@ -7,11 +7,12 @@ import { socialLinkedin } from "react-icons-kit/ionicons/socialLinkedin";
 // award logo's
 import MLH from "../../assets/image/mlh.png";
 import Hack3 from "../../assets/image/hack3.jpeg";
-import UFT from "../../assets/image/uft.png";
-import Waterloo from "../../assets/image/uwaterloo.png";
+import Torch from "../../assets/image/torch.png";
+import SeSoc from "../../assets/image/sesoc.png";
 import SetHacks from "../../assets/image/sethacks.png";
 import TYN from "../../assets/image/tyn.png";
 import PicoCTF from "../../assets/image/picoctf.jpeg";
+import Waterloo from "../../assets/image/uwaterloo.png";
 
 import PortfolioImage1 from "../../assets/image/portfolio-1.jpg";
 
@@ -99,69 +100,76 @@ export const MENU_ITEMS = [
 
 export const AWARDS = [
   {
-    awardName: "YeeHaw Hacks Winner",
-    awardDetails: "For the best use of Google Cloud",
+    awardName: "YeeHaw Hacks (Hackathon) Winner",
+    awardDetails: "Best use of Google Cloud",
     awardeeLogo: MLH,
     awardeeName: "Major League Hacking",
+    awardeeUrl: "https://mlh.io/",
     date: "August 2020",
   },
   {
-    awardName: "Hack3 Overall Finalist",
-    awardDetails: "Awarded to the top 3 overall teams",
+    awardName: "Hack3 (Hackathon) Overall Finalist",
+    awardDetails: "Top 3 overall hack",
     awardeeLogo: Hack3,
     awardeeName: "Hack3",
+    awardeeUrl: "https://hack3.co/",
     date: "July 2020",
   },
   {
-    awardName: "SetHacks Category Winner",
-    awardDetails: 'Awarded to the top hack in the "community" category',
+    awardName: "SetHacks (Hackathon) Winner",
+    awardDetails: 'Top hack in the category of "the community"',
     awardeeLogo: SetHacks,
     awardeeName: "SetHacks",
+    awardeeUrl: "https://sethacks.ca/",
     date: "July 2020",
   },
   {
     awardName: "Software Engineering Hackathon Winner",
-    awardDetails: "Voted the top hack by UW's Software Engineering Cohort",
-    awardeeLogo: Waterloo,
-    awardeeName: "University of Waterloo SE 25",
+    awardDetails: "1st Place Hack",
+    awardeeLogo: SeSoc,
+    awardeeName: "UWaterloo's Software Engineering Society",
+    awardeeUrl: "https://sesoc.uwaterloo.ca/",
     date: "July 2020",
   },
   {
-    awardName: "FinHacks Winner",
-    awardDetails: "Placed 3rd overall amongst all teams",
+    awardName: "FinHacks (Hackathon) Winner",
+    awardDetails: "Top 3 overall hack",
     awardeeLogo: TYN,
     awardeeName: "Toronto Youth Network",
+    awardeeUrl: "https://torontoyouthnetwork.com/",
     date: "November 2019",
   },
   {
     awardName: "PicoCTF - Outstanding Achievement",
     awardDetails:
-      "Placed top 25 nationally in the World's largest cybersecurity competition",
+      "Top 25 nationally in the world's largest cybersecurity competition",
     awardeeLogo: PicoCTF,
     awardeeName: "PicoCTF",
+    awardeeUrl: "https://picoctf.org/",
     date: "October 2019",
   },
   {
-    awardName: "Hack Lassonde Winner",
-    awardDetails: "Placed top 5 overall amongst all teams.",
+    awardName: "Hack Lassonde (Hackathon) Winner",
+    awardDetails: "Top 5 overall hack",
     awardeeLogo: MLH,
     awardeeName: "Major League Hacking",
     date: "March 2019",
   },
   {
     awardName: "TORCH Event Finalist",
-    awardDetails:
-      "Placed in the 2nd in UoFT's annual Operations Research Challenge.",
-    awardeeLogo: UFT,
-    awardeeName: "University of Toronto",
+    awardDetails: "2nd place in UoFT's annual operations research challenge.",
+    awardeeLogo: Torch,
+    awardeeName: "TORCH",
+    awardeeUrl: "http://orchallenge.org/",
     date: "March 2019",
   },
   {
-    awardName: "UWaterloo E3 Competition Winner",
+    awardName: "E3 Competition Winner",
     awardDetails:
-      "Placed 1st overall in UWaterloo's Engaging in Entrepreneurship and Engineering Challenge.",
+      "1st place in UWaterloo's entrepreneurship and engineering competition",
     awardeeLogo: Waterloo,
     awardeeName: "University of Waterloo",
+    awardeeUrl: "https://uwaterloo.ca/",
     date: "August 2018",
   },
 ];
@@ -349,20 +357,5 @@ export const SKILLS = [
         content: "Node JS",
       },
     ],
-  },
-];
-
-export const FOOTER_MENU = [
-  {
-    label: "Contact",
-    path: "#",
-  },
-  {
-    label: "Privacy",
-    path: "#",
-  },
-  {
-    label: "Cookie Policy",
-    path: "#",
   },
 ];
