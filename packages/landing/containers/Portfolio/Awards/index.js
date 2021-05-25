@@ -60,7 +60,7 @@ const AwardsSection = ({
           />
           <Text
             {...secDescription}
-            content="Below are some of my most notable and proud achievements. It feels great to be appreciated!"
+            content="Below are some of my most notable and proud achievements."
           />
         </Box>
 

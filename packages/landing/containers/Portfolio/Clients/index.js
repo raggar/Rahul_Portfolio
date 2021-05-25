@@ -20,10 +20,10 @@ const ClientsSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="I want to build your story." />
+          <Heading {...secTitle} content="I want to help build your story." />
           <Text
             {...secDescription}
-            content="Through the years I have worked with several great companies, startups and organizations."
+            content="Throughout the years I have contributed to several phenomenal companies, startups, and initiatives."
           />
         </Box>
         <Box {...row}>

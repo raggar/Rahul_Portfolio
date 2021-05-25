@@ -11,7 +11,7 @@ import BannerWrapper from "./banner.style";
 
 import { SOCIAL_PROFILES } from "common/src/data/Portfolio/data";
 import { cornerDownRight } from "react-icons-kit/feather/cornerDownRight";
-import PersonImage from "common/src/assets/image/person.png";
+import PersonImage from "common/src/assets/image/person.jpg";
 
 const BannerSection = ({
   row,
@@ -39,18 +39,18 @@ const BannerSection = ({
                 size={22}
               />
               <Heading
-                content="Fullstack Developer at Remitbee"
+                content="Developer @ HacktheNorth, Remitbee."
                 {...roleStyle}
               />
             </Box>
             <Text
-              content="An 18 year-old software engineering student from the University of Waterloo who is passionate about Machine Learning, App infrastructure, and creating for the World Wide Web."
+              content="I am an 18 year-old student developer from the University of Waterloo who is passionate about Machine Learning, App development, and creating for the World Wide Web."
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />
           </Box>
           <Box {...imageArea} className="image_area">
-            <Image src={PersonImage} alt="Mat Helme" />
+            <Image src={PersonImage} alt="Rahul Aggarwal" />
           </Box>
         </Box>
       </Container>
@@ -109,6 +109,7 @@ BannerSection.defaultProps = {
     fontSize: ["18px", "18px", "18px", "20px", "30px"],
     fontWeight: "700",
     mb: ["30px", "30px", "25px", "30px", "30px"],
+    paddingTop: "15px",
   },
   roleWrapper: {
     flexBox: true,
@@ -128,6 +129,7 @@ BannerSection.defaultProps = {
     color: "#fff",
     lineHeight: "1.5",
     mb: "50px",
+    marginRight: "50px",
   },
 };
 

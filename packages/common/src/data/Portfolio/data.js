@@ -15,6 +15,8 @@ import PicoCTF from "../../assets/image/picoctf.jpeg";
 import Waterloo from "../../assets/image/uwaterloo.png";
 
 import PortfolioImage1 from "../../assets/image/portfolio-1.jpg";
+import ShopioImage from "../../assets/image/shopio.png";
+import ChatterImage from "../../assets/image/chatter.png";
 
 // organizations
 import Remitbee from "../../assets/image/remitbee.png";
@@ -181,15 +183,15 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Shop.io",
         description:
-          "A fully functional ecommerce platform where users can browse, sell, and checkout their favourite items. Features include user authentication, Stripe payments, password reset options etc.",
-        image: PortfolioImage1,
+          "A complete ecommerce platform where users can browse, sell, and purchase their favourite items. This CRUD application includes user authentication, stripe payments, password reset options and the ability to search for items.",
+        image: ShopioImage,
         link: "https://github.com/RahulAggarwal1016/Shop.io",
         buildWith: [
           {
-            content: "Next JS",
+            content: "NextJS",
           },
           {
-            content: "Node JS",
+            content: "NodeJS",
           },
           {
             content: "Prisma",
@@ -199,6 +201,9 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: "Styled Components",
+          },
+          {
+            content: "Apollo Client",
           },
         ],
       },
@@ -210,8 +215,8 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Chatter",
         description:
-          "A full-stack social media application that helps people connect and communicate online. Users can communicate in real-time using private chat rooms as well as post public messages for others to view.",
-        image: PortfolioImage1,
+          "A social media application that helps people connect and communicate online. Users can interact in real-time with one another using private chat rooms and the power of websockets. Additionally, users can post public messages for others to view, like and comment.",
+        image: ChatterImage,
         link: "https://github.com/RahulAggarwal1016/Chatter",
         buildWith: [
           {
@@ -222,9 +227,6 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: "GraphQL",
-          },
-          {
-            content: "Semantic UI",
           },
           {
             content: "Socket.io",
@@ -280,11 +282,8 @@ export const PORTFOLIO_SHOWCASE = [
 
 export const SKILLS = [
   {
-    title: "Frontend Web",
+    title: "Frontend",
     listItems: [
-      {
-        content: "HTML & CSS",
-      },
       {
         content: "React JS",
       },
@@ -295,24 +294,30 @@ export const SKILLS = [
         content: "Next JS",
       },
       {
-        content: "Styled Components",
+        content: "HTML & CSS",
       },
       {
         content: "Tailind CSS",
       },
       {
-        content: "jQuery",
+        content: "Twin.Macro",
       },
       {
         content: "Semantic & Material UI",
       },
+      {
+        content: "Framer Motion",
+      },
     ],
   },
   {
-    title: "Backend Web",
+    title: "Backend",
     listItems: [
       {
         content: "NodeJS",
+      },
+      {
+        content: "ExpressJS",
       },
       {
         content: "Flask",
@@ -321,16 +326,13 @@ export const SKILLS = [
         content: "GraphQL",
       },
       {
-        content: "REST API's",
-      },
-      {
         content: "Postgres",
       },
       {
         content: "MongoDB",
       },
       {
-        content: "SQL",
+        content: "SQL & Sequalize",
       },
       {
         content: "Firebase",
@@ -347,14 +349,16 @@ export const SKILLS = [
         content: "React Native",
       },
       {
+        content: "Realm",
+      },
+      {
+        content: "Core Data",
+      },
+      {
         content: "C",
       },
       {
         content: "C++",
-      },
-
-      {
-        content: "Node JS",
       },
     ],
   },
