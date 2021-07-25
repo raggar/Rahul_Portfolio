@@ -39,12 +39,12 @@ const BannerSection = ({
                 size={22}
               />
               <Heading
-                content="Developer @ HacktheNorth, Remitbee."
+                content="Developer @ HacktheNorth, Remitbee"
                 {...roleStyle}
               />
             </Box>
             <Text
-              content="I am an 18 year-old student developer from the University of Waterloo who is passionate about Machine Learning, App development, and creating for the World Wide Web."
+              content="19 year-old student developer who is passionate about Machine Learning, App development, and creating for the World Wide Web."
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />

@@ -1,20 +1,16 @@
-import React, { useContext } from 'react';
-import Link from 'next/link';
-import PropTypes from 'prop-types';
-import NavbarWrapper from 'common/src/components/Navbar';
-import Drawer from 'common/src/components/Drawer';
-import Button from 'common/src/components/Button';
-import Logo from 'common/src/components/UIElements/Logo';
-import Box from 'common/src/components/Box';
-import HamburgMenu from 'common/src/components/HamburgMenu';
-import Container from 'common/src/components/UI/Container';
-import { DrawerContext } from 'common/src/contexts/DrawerContext';
+import React, { useContext } from "react";
+import Link from "next/link";
+import PropTypes from "prop-types";
+import NavbarWrapper from "common/src/components/Navbar";
+import Drawer from "common/src/components/Drawer";
+import Button from "common/src/components/Button";
+import Box from "common/src/components/Box";
+import HamburgMenu from "common/src/components/HamburgMenu";
+import Container from "common/src/components/UI/Container";
+import { DrawerContext } from "common/src/contexts/DrawerContext";
 
-import { MENU_ITEMS } from 'common/src/data/Portfolio/data';
-import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
-
-import LogoImage from 'common/src/assets/image/logo.png';
-import LogoImageAlt from 'common/src/assets/image/logo-alt.png';
+import { MENU_ITEMS } from "common/src/data/Portfolio/data";
+import ScrollSpyMenu from "common/src/components/ScrollSpyMenu";
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -22,7 +18,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   // Toggle drawer
   const toggleHandler = () => {
     dispatch({
-      type: 'TOGGLE',
+      type: "TOGGLE",
     });
   };
 
@@ -30,7 +26,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
     <NavbarWrapper {...navbarStyle} className="portfolio_navbar">
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
-          <Logo
+          {/* <Logo
             href="#"
             logoSrc={LogoImage}
             title="Portfolio"
@@ -43,7 +39,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             title="Portfolio"
             logoStyle={logoStyle}
             className="logo-alt"
-          />
+          /> */}
           <Box {...menuWrapper}>
             <ScrollSpyMenu
               className="main_menu"
@@ -91,29 +87,29 @@ Navbar.propTypes = {
 
 Navbar.defaultProps = {
   navbarStyle: {
-    minHeight: '70px',
-    display: 'block',
+    minHeight: "70px",
+    display: "block",
   },
   row: {
     flexBox: true,
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    width: '100%',
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
   },
   logoStyle: {
-    maxWidth: ['120px', '130px'],
+    maxWidth: ["120px", "130px"],
   },
   button: {
-    type: 'button',
-    fontSize: '16px',
-    pl: '0',
-    pr: '0',
-    colors: 'primary',
-    minHeight: 'auto',
+    type: "button",
+    fontSize: "16px",
+    pl: "0",
+    pr: "0",
+    colors: "primary",
+    minHeight: "auto",
   },
   menuWrapper: {
     flexBox: true,
-    alignItems: 'center',
+    alignItems: "center",
   },
 };
 

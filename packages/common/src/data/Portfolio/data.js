@@ -17,6 +17,8 @@ import Waterloo from "../../assets/image/uwaterloo.png";
 import PortfolioImage1 from "../../assets/image/portfolio-1.jpg";
 import ShopioImage from "../../assets/image/shopio.png";
 import ChatterImage from "../../assets/image/chatter.png";
+import LassoLearnImage from "../../assets/image/lassolearn.jpeg";
+import FollakartImage from "../../assets/image/follakart.jpeg";
 
 // organizations
 import Remitbee from "../../assets/image/remitbee.png";
@@ -102,7 +104,7 @@ export const MENU_ITEMS = [
 
 export const AWARDS = [
   {
-    awardName: "YeeHaw Hacks (Hackathon) Winner",
+    awardName: "YeeHaw Hacks Winner",
     awardDetails: "Best use of Google Cloud",
     awardeeLogo: MLH,
     awardeeName: "Major League Hacking",
@@ -110,7 +112,7 @@ export const AWARDS = [
     date: "August 2020",
   },
   {
-    awardName: "Hack3 (Hackathon) Overall Finalist",
+    awardName: "Hack3 Overall Finalist",
     awardDetails: "Top 3 overall hack",
     awardeeLogo: Hack3,
     awardeeName: "Hack3",
@@ -118,7 +120,7 @@ export const AWARDS = [
     date: "July 2020",
   },
   {
-    awardName: "SetHacks (Hackathon) Winner",
+    awardName: "SetHacks Winner",
     awardDetails: 'Top hack in the category of "the community"',
     awardeeLogo: SetHacks,
     awardeeName: "SetHacks",
@@ -129,12 +131,12 @@ export const AWARDS = [
     awardName: "Software Engineering Hackathon Winner",
     awardDetails: "1st Place Hack",
     awardeeLogo: SeSoc,
-    awardeeName: "UWaterloo's Software Engineering Society",
+    awardeeName: "UW Software Engineering Society",
     awardeeUrl: "https://sesoc.uwaterloo.ca/",
     date: "July 2020",
   },
   {
-    awardName: "FinHacks (Hackathon) Winner",
+    awardName: "FinHacks Winner",
     awardDetails: "Top 3 overall hack",
     awardeeLogo: TYN,
     awardeeName: "Toronto Youth Network",
@@ -151,7 +153,7 @@ export const AWARDS = [
     date: "October 2019",
   },
   {
-    awardName: "Hack Lassonde (Hackathon) Winner",
+    awardName: "Hack Lassonde Winner",
     awardDetails: "Top 5 overall hack",
     awardeeLogo: MLH,
     awardeeName: "Major League Hacking",
@@ -265,7 +267,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: "Follakart",
         description:
           "An autonomous car that will track and follow a predefined object. Powered using Raspberry Pi, a camera module, and DC motors, Follakart will analyze video frames to locate and track an object near the centre of the camera frame.",
-        image: PortfolioImage1,
+        image: FollakartImage,
         link: "https://github.com/RahulAggarwal1016/Follakart",
         buildWith: [
           {
@@ -273,6 +275,32 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: "Rasberry PI",
+          },
+          {
+            content: "Arduino",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "LASSO LEARN",
+    portfolioItem: [
+      {
+        title: "Lasso Learn",
+        description:
+          "LassoLearn is a platform for users to engage in one-on-one discussions to teach and learn new skills. When a user creates an account they can select the topics that they would like to teach or learn. Users can search that topic using the search bar and find other users who they can talk to.",
+        image: LassoLearnImage,
+        link: "https://github.com/RahulAggarwal1016/Lasso_Learn",
+        buildWith: [
+          {
+            content: "ReactJS",
+          },
+          {
+            content: "Firebase",
+          },
+          {
+            content: "HTML & CSS",
           },
         ],
       },
@@ -285,13 +313,7 @@ export const SKILLS = [
     title: "Frontend",
     listItems: [
       {
-        content: "React JS",
-      },
-      {
-        content: "Gatsby",
-      },
-      {
-        content: "Next JS",
+        content: "React/Gatsby/Next",
       },
       {
         content: "HTML & CSS",
@@ -306,6 +328,12 @@ export const SKILLS = [
         content: "Semantic & Material UI",
       },
       {
+        content: "Styled Components",
+      },
+      {
+        content: "Emotion",
+      },
+      {
         content: "Framer Motion",
       },
     ],
@@ -317,10 +345,13 @@ export const SKILLS = [
         content: "NodeJS",
       },
       {
+        content: "Typescript",
+      },
+      {
         content: "ExpressJS",
       },
       {
-        content: "Flask",
+        content: "Django",
       },
       {
         content: "GraphQL",
@@ -343,7 +374,7 @@ export const SKILLS = [
     title: "Mobile",
     listItems: [
       {
-        content: "Swift (IOS)",
+        content: "Swift",
       },
       {
         content: "React Native",
