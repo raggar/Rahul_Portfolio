@@ -258,7 +258,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Chatter",
         description:
-          "A social media application that helps people connect and communicate online. Users can interact in real-time with one another using private chat rooms and the power of websockets. Additionally, users can post public messages for others to view, like and comment.",
+          "A social media application that helps people connect and communicate online. Users can interact in real-time with one another using private chat rooms and the power of websockets. Additionally, users can post public messages for others to view, like, and comment.",
         image: ChatterImage,
         link: "https://github.com/RahulAggarwal1016/Chatter",
         buildWith: [
@@ -284,7 +284,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Better Vote",
         description:
-          "A cross platform mobile app that makes it easier for any organization (both poltical and apolitical) to operate democratically to make decisions.",
+          "A cross platform mobile app that makes it easier for any political or apolitical organization to democratically to make decisions.",
         image: BetterVoteImage,
         link: "https://github.com/RahulAggarwal1016/BetterVote",
         buildWith: [
