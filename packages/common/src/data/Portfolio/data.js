@@ -14,7 +14,8 @@ import TYN from "../../assets/image/tyn.png";
 import PicoCTF from "../../assets/image/picoctf.jpeg";
 import Waterloo from "../../assets/image/uwaterloo.png";
 
-import PortfolioImage1 from "../../assets/image/portfolio-1.jpg";
+import IosPortfolioImage from "../../assets/image/app_portfolio.png";
+import BetterVoteImage from "../../assets/image/better-vote.png";
 import ShopioImage from "../../assets/image/shopio.png";
 import ChatterImage from "../../assets/image/chatter.png";
 import LassoLearnImage from "../../assets/image/lassolearn.jpeg";
@@ -27,36 +28,50 @@ import Waterloop from "../../assets/image/waterloop.png";
 import EntSoc from "../../assets/image/entsoc.png";
 import AirMatrix from "../../assets/image/airmatrix.png";
 import WavesEG from "../../assets/image/waveseg.png";
+import MacBryte from "../../assets/image/macbryte.png";
 
 export const CLIENTS = [
   {
     image: Remitbee,
-    title: "Remitbee",
-    url: "https://www.remitbee.com/",
+    title: "Remitbee, FullStack Developer",
+    description:
+      "Worked on client-interface application and internal tools dashboard using Node and ReactJS. Optimized SQL queries by 30% and created over 20 new GraphQL resolvers to support new backend features.",
   },
   {
     image: HTN,
-    title: "Hack the North",
-    url: "https://hackthenorth.com/",
+    title: "Hack the North, Frontend Team",
+    description:
+      "Built application, RSVP, and sponsorship dashboards to help support over 6200 hacker applications, 100 sponsors, and 1000 attendees to Canada's largest hackathon.",
   },
   {
     image: Waterloop,
-    title: "Waterloop",
-    url: "https://teamwaterloop.ca/",
+    title: "Waterloop, FullStack Developer",
+    description:
+      "Built out internal tooling for Canada's only hyperloop team using Styled Components, and ReactJS. Created a script to help optimize images and automatically upload them to Google's Cloud Storage.",
   },
   {
     image: EntSoc,
-    title: "EntSoc",
-    url: "https://entsoc.ca/",
+    title: "Waterloo Entrepreneurship Society, FullStack Developer",
+    description:
+      "Developed an internal interface with React and NodeJs to replace spreadsheets and optimize operations by 20%. Integrated third-party services and external API's to replace legacy features.",
   },
   {
     image: AirMatrix,
-    title: "AirMatrix",
-    url: "https://airmatrix.ca/",
+    title: "AirMatrix, Software Engineering Intern",
+    description:
+      "Designed a maintainble React component library to house UI elements in an isolated and well documented manner. Seperated site logic, debugged client-side errors, and modularized backend processes by 10%.",
   },
   {
     image: WavesEG,
-    title: "https://wavesgaming.ca/",
+    title: "Waves EGaming, Software Development Intern",
+    description:
+      "Reconstructed the company's website to improve its UI and long-term maintainability. Resolved daily computer networking, operating system, and web server management issues.",
+  },
+  {
+    image: MacBryte,
+    title: "MacOS Developer",
+    description:
+      "Created an OSX application using Swift, MongoDB, and Typescript to help owner keep track and manage customer data. Conducted rigorous testing with TestFlight before releasing to the Apple App Store.",
   },
 ];
 
@@ -212,6 +227,32 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
+    title: "IOS ",
+    portfolioItem: [
+      {
+        title: "IOS Apps",
+        description:
+          "Contains 10+ applications ranging from a bitcoin tracker, fortune telling game, weather detector, flower identfier etc. Each was built using a different web api or swift framework.",
+        image: IosPortfolioImage,
+        link: "https://github.com/RahulAggarwal1016/IOS_Portfolio.git",
+        buildWith: [
+          {
+            content: "Swift",
+          },
+          {
+            content: "Realm",
+          },
+          {
+            content: "Core Data",
+          },
+          {
+            content: "ARKit",
+          },
+        ],
+      },
+    ],
+  },
+  {
     title: "CHATTER",
     portfolioItem: [
       {
@@ -244,7 +285,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: "Better Vote",
         description:
           "A cross platform mobile app that makes it easier for any organization (both poltical and apolitical) to operate democratically to make decisions.",
-        image: PortfolioImage1,
+        image: BetterVoteImage,
         link: "https://github.com/RahulAggarwal1016/BetterVote",
         buildWith: [
           {

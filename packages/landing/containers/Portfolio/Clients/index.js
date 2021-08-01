@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Box from "common/src/components/Box";
 import Text from "common/src/components/Text";
@@ -16,27 +16,28 @@ const ClientsSection = ({
   secDescription,
   row,
 }) => {
+  const [header, setHeader] = useState("I want to help build your story.");
+  const [content, setContent] = useState(
+    "Throughout the years I have contributed to several phenomenal companies, startups, and initiatives."
+  );
   return (
     <Box {...sectionWrapper} as="section">
       <Container noGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="I want to help build your story." />
-          <Text
-            {...secDescription}
-            content="Throughout the years I have contributed to several phenomenal companies, startups, and initiatives."
-          />
+          <Heading {...secTitle} content={header} />
+          <Text {...secDescription} content={content} />
         </Box>
         <Box {...row}>
-          {CLIENTS.map((client, index) => (
+          {CLIENTS.map(({ image, title, description }, index) => (
             <ClientsImage key={`client-${index}`}>
               <Image
                 style={{
                   cursor: "pointer",
                 }}
-                src={client.image}
-                alt={client.title}
-                title={client.title}
-                onClick={() => window.open(client.url)}
+                src={image}
+                alt={title}
+                title={title}
+                onClick={() => (setHeader(title), setContent(description))}
               />
             </ClientsImage>
           ))}

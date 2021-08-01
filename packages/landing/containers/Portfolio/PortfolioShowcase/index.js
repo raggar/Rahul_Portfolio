@@ -100,7 +100,6 @@ const PortfolioShowcase = ({
                                 <a>VIEW SOURCE CODE</a>
                               </Link>
                             </PortfolioLink>
-                            {/* Add hyperlink to live websites */}
                             <Heading
                               content={portfolioItem.title}
                               {...titleStyle}
