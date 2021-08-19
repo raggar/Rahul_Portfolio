@@ -412,7 +412,7 @@ export const SKILLS = [
         content: "GraphQL",
       },
       {
-        content: "Realm/Core Data",
+        content: "Realm",
       },
       {
         content: "MongoDB",
