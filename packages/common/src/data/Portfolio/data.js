@@ -34,44 +34,61 @@ export const CLIENTS = [
   {
     image: Remitbee,
     title: "Remitbee, FullStack Developer",
-    description:
-      "Worked on client-interface application and internal tools dashboard using Node and ReactJS. Optimized SQL queries by 30% and created over 20 new GraphQL resolvers to support new backend features.",
+    description: [
+      " Reduced internal dashboard latency and daily request count by 73% through developing an alternative notification system using WebSockets and Redis.",
+      "Created 60+ GraphQL Resolvers responsible for supporting 10% of international currency-exchanges and 65% of internal analytics tool features.",
+      "Developed from scratch an SQL powered React and Redux dashboard to track overseas agent behaviour and customer interactions with greater accuracy.",
+    ],
   },
   {
     image: HTN,
     title: "Hack the North, Frontend Team",
-    description:
-      "Built application, RSVP, and sponsorship dashboards to help support over 6200 hacker applications, 100 sponsors, and 1000 attendees to Canada's largest hackathon.",
+    description: [
+      "Building experiences for one of the world's largest hackathons with 34,000+ unique users and ~3.5m requests a month.",
+      "Using React Hooks, GraphQL and Typescript to develop a reusable component library, frontend API, and multiple web applications (i.e. static site).",
+      "Spearheading the development of a platform tool that will enable organizers to effectively track and organize hardware item checkouts.",
+    ],
   },
   {
     image: Waterloop,
     title: "Waterloop, FullStack Developer",
-    description:
-      "Built out internal tooling for Canada's only hyperloop team using Styled Components, and ReactJS. Created a script to help optimize images and automatically upload them to Google's Cloud Storage.",
+    description: [
+      "Built out internal tooling for Canada's only hyperloop team using Styled Components, and ReactJS.",
+      "Created a script to help optimize images and automatically upload them to Google's Cloud Storage.",
+    ],
   },
   {
     image: EntSoc,
     title: "Waterloo Entrepreneurship Society, FullStack Developer",
-    description:
-      "Developed an internal interface with React and NodeJs to replace spreadsheets and optimize operations by 20%. Integrated third-party services and external API's to replace legacy features.",
+    description: [
+      "Developed an internal interface with React and NodeJs to replace spreadsheets.",
+      "Integrated third-party services and external API's to replace legacy features.",
+    ],
   },
   {
     image: AirMatrix,
     title: "AirMatrix, Software Engineering Intern",
-    description:
-      "Designed a maintainble React component library to house UI elements in an isolated and well documented manner. Seperated site logic, debugged client-side errors, and modularized backend processes by 10%.",
+    description: [
+      "Assisted team and product manager in architecting the tech specs and structure of a 200+ drone tracking system.",
+      "Separated site logic and modularized backend processes by 15% to enhance clarity of React, NodeJS codebase.",
+      "Sped up frontend development by 24% across all teams through creating a well-documented React component library.",
+    ],
   },
   {
     image: WavesEG,
     title: "Waves EGaming, Software Development Intern",
-    description:
-      "Reconstructed the company's website to improve its UI and long-term maintainability. Resolved daily computer networking, operating system, and web server management issues.",
+    description: [
+      "Reconstructed the company's website to improve its UI and long-term maintainability.",
+      "Resolved daily computer networking, operating system, and web server management issues.",
+    ],
   },
   {
     image: MacBryte,
     title: "MacOS Developer",
-    description:
-      "Created an OSX application using Swift, MongoDB, and Typescript to help owner keep track and manage customer data. Conducted rigorous testing with TestFlight before releasing to the Apple App Store.",
+    description: [
+      "Released an account-summary application using Swift, Typescript, and Realm to the apple app store resulting in a 56% increase in customer satisfaction.",
+      "Engineered new admin control features to optimize company operations by 24%.",
+    ],
   },
 ];
 
@@ -200,12 +217,15 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Shop.io",
         description:
-          "A complete ecommerce platform where users can browse, sell, and purchase their favourite items. This CRUD application includes user authentication, stripe payments, password reset options and the ability to search for items.",
+          "A complete ecommerce platform where users can browse, sell, and purchase their favourite items. Features include user authentication, payments, password reset options, the ability to search for items etc.",
         image: ShopioImage,
         link: "https://github.com/RahulAggarwal1016/Shop.io",
         buildWith: [
           {
             content: "NextJS",
+          },
+          {
+            content: "Styled Components",
           },
           {
             content: "NodeJS",
@@ -215,12 +235,6 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: "GraphQL",
-          },
-          {
-            content: "Styled Components",
-          },
-          {
-            content: "Apollo Client",
           },
         ],
       },
@@ -258,7 +272,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Chatter",
         description:
-          "A social media application that helps people connect and communicate online. Users can interact in real-time with one another using private chat rooms and the power of websockets. Additionally, users can post public messages for others to view, like, and comment.",
+          "A full-stack chat application where users can view news from popular media outlets as well as create, like, and contribute to public discussion threads",
         image: ChatterImage,
         link: "https://github.com/RahulAggarwal1016/Chatter",
         buildWith: [
@@ -284,7 +298,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Better Vote",
         description:
-          "A cross platform mobile app that makes it easier for any political or apolitical organization to democratically to make decisions.",
+          "A cross platform mobile app designed to help increase voter turnout and decrease political election costs.",
         image: BetterVoteImage,
         link: "https://github.com/RahulAggarwal1016/BetterVote",
         buildWith: [
@@ -330,7 +344,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Lasso Learn",
         description:
-          "LassoLearn is a platform for users to engage in one-on-one discussions to teach and learn new skills. When a user creates an account they can select the topics that they would like to teach or learn. Users can search that topic using the search bar and find other users who they can talk to.",
+          "LassoLearn is a platform for users to engage in one-on-one discussions to teach and learn new skills. When a user creates an account they can select the topics that they would like to teach or learn and are then immediatly connected with others who share their learning interests.",
         image: LassoLearnImage,
         link: "https://github.com/RahulAggarwal1016/Lasso_Learn",
         buildWith: [
@@ -351,45 +365,45 @@ export const PORTFOLIO_SHOWCASE = [
 
 export const SKILLS = [
   {
-    title: "Frontend",
+    title: "Languages",
     listItems: [
       {
-        content: "React/Gatsby/Next",
-      },
-      {
-        content: "HTML & CSS",
-      },
-      {
-        content: "Tailind CSS",
-      },
-      {
-        content: "Twin.Macro",
-      },
-      {
-        content: "Semantic & Material UI",
-      },
-      {
-        content: "Styled Components",
-      },
-      {
-        content: "Emotion",
-      },
-      {
-        content: "Framer Motion",
-      },
-    ],
-  },
-  {
-    title: "Backend",
-    listItems: [
-      {
-        content: "NodeJS",
+        content: "Python",
       },
       {
         content: "Typescript",
       },
       {
+        content: "Javascript",
+      },
+      {
+        content: "C",
+      },
+      {
+        content: "C++",
+      },
+      {
+        content: "Swift",
+      },
+    ],
+  },
+  {
+    title: "Frameworks/Technologies",
+    listItems: [
+      {
+        content: "NodeJS",
+      },
+      {
         content: "ExpressJS",
+      },
+      {
+        content: "Redux",
+      },
+      {
+        content: "React/Next/GatsbyJS",
+      },
+      {
+        content: "React Native",
       },
       {
         content: "Django",
@@ -398,7 +412,7 @@ export const SKILLS = [
         content: "GraphQL",
       },
       {
-        content: "Postgres",
+        content: "Realm/Core Data",
       },
       {
         content: "MongoDB",
@@ -407,30 +421,24 @@ export const SKILLS = [
         content: "SQL & Sequalize",
       },
       {
-        content: "Firebase",
+        content: "Prisma",
       },
     ],
   },
   {
-    title: "Mobile",
+    title: "Other",
     listItems: [
       {
-        content: "Swift",
+        content: "Firebase",
       },
       {
-        content: "React Native",
+        content: "Git",
       },
       {
-        content: "Realm",
+        content: "Vim",
       },
       {
-        content: "Core Data",
-      },
-      {
-        content: "C",
-      },
-      {
-        content: "C++",
+        content: "Bash",
       },
     ],
   },

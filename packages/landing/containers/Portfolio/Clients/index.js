@@ -17,15 +17,24 @@ const ClientsSection = ({
   row,
 }) => {
   const [header, setHeader] = useState("I want to help build your story.");
-  const [content, setContent] = useState(
-    "Throughout the years I have contributed to several phenomenal companies, startups, and initiatives."
-  );
+  const [content, setContent] = useState([
+    "Throughout the years I have contributed to several phenomenal companies, startups, and initiatives. Click to learn more!",
+  ]);
   return (
     <Box {...sectionWrapper} as="section">
       <Container noGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content={header} />
-          <Text {...secDescription} content={content} />
+          {content.length == 1 ? (
+            <Text {...secDescription} content={content[0]} />
+          ) : (
+            content.map((bullet) => (
+              <>
+                <Text {...secDescription} content={"- " + bullet} />
+                <br />
+              </>
+            ))
+          )}
         </Box>
         <Box {...row}>
           {CLIENTS.map(({ image, title, description }, index) => (
