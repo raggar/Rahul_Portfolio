@@ -35,8 +35,8 @@ export const CLIENTS = [
     image: Remitbee,
     title: "Remitbee, FullStack Developer",
     description: [
-      " Reduced internal dashboard latency and daily request count by 73% through developing an alternative notification system using WebSockets and Redis.",
-      "Created 60+ GraphQL Resolvers responsible for supporting 10% of international currency-exchanges and 65% of internal analytics tool features.",
+      " Reduced internal dashboard latency and daily request count by 62% through developing an alternative notification system using WebSockets and Redis.",
+      "Created 60+ GraphQL Resolvers responsible for supporting 10% of international currency-exchanges and 75% of internal analytics tool features.",
       "Developed from scratch an SQL powered React and Redux dashboard to track overseas agent behaviour and customer interactions with greater accuracy.",
     ],
   },
@@ -69,7 +69,7 @@ export const CLIENTS = [
     image: AirMatrix,
     title: "AirMatrix, Software Engineering Intern",
     description: [
-      "Assisted team and product manager in architecting the tech specs and structure of a 200+ drone tracking system.",
+      "Assisted team and product manager in architecting the tech specs and structure of a 90+ drone tracking system.",
       "Separated site logic and modularized backend processes by 15% to enhance clarity of React, NodeJS codebase.",
       "Sped up frontend development by 24% across all teams through creating a well-documented React component library.",
     ],
@@ -87,7 +87,7 @@ export const CLIENTS = [
     title: "MacOS Developer",
     description: [
       "Released an account-summary application using Swift, Typescript, and Realm to the apple app store resulting in a 56% increase in customer satisfaction.",
-      "Engineered new admin control features to optimize company operations by 24%.",
+      "Engineered new admin control features to optimize company operations by 36%.",
     ],
   },
 ];
