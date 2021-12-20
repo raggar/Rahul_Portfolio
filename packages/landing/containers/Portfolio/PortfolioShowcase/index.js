@@ -16,8 +16,6 @@ import {
   PortfolioShowcaseItem,
   PortfolioLink,
   BuiltWith,
-  PortfolioMeta,
-  MetaItem,
 } from "./portfolioShowcase.style";
 import { PrevButton, NextButton } from "../portfolio.style";
 import { PORTFOLIO_SHOWCASE } from "common/src/data/Portfolio/data";

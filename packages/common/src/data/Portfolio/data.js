@@ -385,6 +385,9 @@ export const SKILLS = [
       {
         content: "Swift",
       },
+      {
+        content: "Lua",
+      },
     ],
   },
   {
