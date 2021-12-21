@@ -38,7 +38,7 @@ const BannerSection = ({
                 style={{ color: "#3444f1" }}
                 size={22}
               />
-              <Heading content="Backend @ HacktheNorth, Faire" {...roleStyle} />
+              <Heading content="Backend @ Faire, HacktheNorth" {...roleStyle} />
             </Box>
             <Text
               content="19 year-old student developer who is passionate about Machine Learning, App development, and creating for the World Wide Web."
