@@ -39,7 +39,7 @@ const BannerSection = ({
                 size={22}
               />
               <Heading
-                content="Backend at Faire, Hack the North"
+                content="Backend @ Faire, Hack the North"
                 {...roleStyle}
               />
             </Box>

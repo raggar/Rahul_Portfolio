@@ -24,6 +24,7 @@ import FollakartImage from "../../assets/image/follakart.jpeg";
 // organizations
 import Remitbee from "../../assets/image/remitbee.png";
 import HTN from "../../assets/image/htn.png";
+import Faire from "../../assets/image/faire.png";
 import Waterloop from "../../assets/image/waterloop.png";
 import EntSoc from "../../assets/image/entsoc.png";
 import AirMatrix from "../../assets/image/airmatrix.png";
@@ -31,6 +32,14 @@ import WavesEG from "../../assets/image/waveseg.png";
 import MacBryte from "../../assets/image/macbryte.png";
 
 export const CLIENTS = [
+  {
+    image: Faire,
+    title: "Faire, Backend Developer",
+    description: [
+      "Developing Kotlin infrastructure to power EU cross-border shipping transactions.",
+      "Creating endpoints with Hibernate, Jersey, and Guice to support website translations.",
+    ],
+  },
   {
     image: Remitbee,
     title: "Remitbee, FullStack Developer",
