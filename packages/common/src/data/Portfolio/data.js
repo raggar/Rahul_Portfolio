@@ -380,6 +380,9 @@ export const SKILLS = [
         content: "Python",
       },
       {
+        content: "Kotlin",
+      },
+      {
         content: "Typescript",
       },
       {
@@ -403,19 +406,16 @@ export const SKILLS = [
     title: "Frameworks/Technologies",
     listItems: [
       {
-        content: "NodeJS",
-      },
-      {
-        content: "ExpressJS",
+        content: "React/Next/GatsbyJS",
       },
       {
         content: "Redux",
       },
       {
-        content: "React/Next/GatsbyJS",
+        content: "React Native",
       },
       {
-        content: "React Native",
+        content: "NodeJS",
       },
       {
         content: "Django",
@@ -424,16 +424,25 @@ export const SKILLS = [
         content: "GraphQL",
       },
       {
+        content: "SQL",
+      },
+      {
         content: "Realm",
       },
       {
         content: "MongoDB",
       },
       {
-        content: "SQL & Sequalize",
+        content: "Prisma",
       },
       {
-        content: "Prisma",
+        content: "Hibernate",
+      },
+      {
+        content: "Google Guice",
+      },
+      {
+        content: "Protocol Buffers",
       },
     ],
   },
