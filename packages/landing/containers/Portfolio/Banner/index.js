@@ -44,7 +44,7 @@ const BannerSection = ({
               />
             </Box>
             <Text
-              content="19 year-old student developer who is passionate about Machine Learning, App development, and creating for the World Wide Web."
+              content="19 year-old student developer with a passion for Machine Learning, App development, and creating for the World Wide Web."
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />

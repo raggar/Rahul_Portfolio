@@ -4,7 +4,7 @@ import { socialGithub } from "react-icons-kit/ionicons/socialGithub";
 import { socialTwitter } from "react-icons-kit/ionicons/socialTwitter";
 import { socialLinkedin } from "react-icons-kit/ionicons/socialLinkedin";
 
-// award logo's
+// award logos
 import MLH from "../../assets/image/mlh.png";
 import Hack3 from "../../assets/image/hack3.jpeg";
 import Torch from "../../assets/image/torch.png";
@@ -36,26 +36,27 @@ export const CLIENTS = [
     image: Faire,
     title: "Faire, Backend Developer",
     description: [
-      "Developing Kotlin infrastructure to power EU cross-border shipping transactions.",
-      "Creating endpoints with Hibernate, Jersey, and Guice to support website translations.",
+      "Developed Kotlin endpoints using Hibernate, Jersey, and Google Guice to surface import VAT and duty cost estimates for over 90% of  European retailers and brands. ",
+      "Rearchitected our shipment api to interface directly with overseas carrier providers.",
+      "Created a product restriction service and search filter provider using Redis and CSV parsing which reduced return-to-sender rates in Spain and Italy by 68%.",
     ],
   },
   {
     image: Remitbee,
     title: "Remitbee, FullStack Developer",
     description: [
-      " Reduced internal dashboard latency and daily request count by 62% through developing an alternative notification system using WebSockets and Redis.",
-      "Created 60+ GraphQL Resolvers responsible for supporting 10% of international currency-exchanges and 75% of internal analytics tool features.",
-      "Developed from scratch an SQL powered React and Redux dashboard to track overseas agent behaviour and customer interactions with greater accuracy.",
+      "Reduced request overhead and internal dashboard latency by 34% through creating an alternative notification system that leverages web sockets and Redis caching.",
+      "Created over 40+ GraphQL resolvers to power new internal analytic tool features and support 10% of international currency exchange transactions.",
+      "Wrote 65+ unit tests to verify user interfaces and relational database interactions.",
     ],
   },
   {
     image: HTN,
-    title: "Hack the North, Frontend Team",
+    title: "Hack the North, Backend Developer",
     description: [
-      "Building experiences for one of the world's largest hackathons with 34,000+ unique users and ~3.5m requests a month.",
-      "Using React Hooks, GraphQL and Typescript to develop a reusable component library, frontend API, and multiple web applications (i.e. static site).",
-      "Spearheading the development of a platform tool that will enable organizers to effectively track and organize hardware item checkouts.",
+      "Maintained the primary api and data pipelines for the world's largest student-run hackathons; attracts over 34,000+ unique users and handles 4.1m requests a month.",
+      "Improved organization-wide security by migrating existing authentication systems to a refresh and access JWT token workflow using NodeJS, Prisma, and Postgres.",
+      "Spearheaded the development of a hardware checkout tool used by 250+ hackers.",
     ],
   },
   {
@@ -78,9 +79,8 @@ export const CLIENTS = [
     image: AirMatrix,
     title: "AirMatrix, Software Engineering Intern",
     description: [
-      "Assisted team and product manager in architecting the tech specs and structure of a 90+ drone tracking system.",
-      "Separated site logic and modularized backend processes by 15% to enhance clarity of React, NodeJS codebase.",
-      "Sped up frontend development by 24% across all teams through creating a well-documented React component library.",
+      "Assisted team and product manager in determining the tech specifications and structure of a 90+ drone tracking system to be used by 110+ operators",
+      "Enhanced clarity and maintainability of React and Node codebase by modularizing backend processes and migrating frontend components to a NPM package.",
     ],
   },
   {
@@ -95,8 +95,8 @@ export const CLIENTS = [
     image: MacBryte,
     title: "MacOS Developer",
     description: [
-      "Released an account-summary application using Swift, Typescript, and Realm to the apple app store resulting in a 56% increase in customer satisfaction.",
-      "Engineered new admin control features to optimize company operations by 36%.",
+      "Published a Swift and Typescript based MacOS application to allow users to view their lesson details, and learn about their systems configuration settings.",
+      "Automated 25% of logistical operations by engineering new admin control features.",
     ],
   },
 ];
@@ -386,13 +386,10 @@ export const SKILLS = [
         content: "Typescript",
       },
       {
-        content: "Javascript",
+        content: "C++",
       },
       {
         content: "C",
-      },
-      {
-        content: "C++",
       },
       {
         content: "Swift",
@@ -441,9 +438,6 @@ export const SKILLS = [
       {
         content: "Google Guice",
       },
-      {
-        content: "Protocol Buffers",
-      },
     ],
   },
   {
@@ -459,7 +453,7 @@ export const SKILLS = [
         content: "Vim",
       },
       {
-        content: "Bash",
+        content: "Shell Script",
       },
     ],
   },
