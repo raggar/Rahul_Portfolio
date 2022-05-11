@@ -50,15 +50,15 @@ export const CLIENTS = [
       "Wrote 65+ unit tests to verify user interfaces and relational database interactions.",
     ],
   },
-  {
-    image: HTN,
-    title: "Hack the North, Backend Developer",
-    description: [
-      "Maintained the primary api and data pipelines for the world's largest student-run hackathons; attracts over 34,000+ unique users and handles 4.1m requests a month.",
-      "Improved organization-wide security by migrating existing authentication systems to a refresh and access JWT token workflow using NodeJS, Prisma, and Postgres.",
-      "Spearheaded the development of a hardware checkout tool used by 250+ hackers.",
-    ],
-  },
+  // {
+  //   image: HTN,
+  //   title: "Hack the North, Backend Developer",
+  //   description: [
+  //     "Maintained the primary api and data pipelines for the world's largest student-run hackathons; attracts over 34,000+ unique users and handles 4.1m requests a month.",
+  //     "Improved organization-wide security by migrating existing authentication systems to a refresh and access JWT token workflow using NodeJS, Prisma, and Postgres.",
+  //     "Spearheaded the development of a hardware checkout tool used by 250+ hackers.",
+  //   ],
+  // },
   {
     image: Waterloop,
     title: "Waterloop, FullStack Developer",
