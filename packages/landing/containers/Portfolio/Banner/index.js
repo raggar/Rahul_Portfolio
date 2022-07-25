@@ -41,7 +41,7 @@ const BannerSection = ({
               <Heading content="Software Developer @ Waabi" {...roleStyle} />
             </Box>
             <Text
-              content="Student developer with a passion for Mobile Apps, Neovim, and creating for the World Wide Web."
+              content="Student developer who is passionate about creating for the World Wide Web."
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />
