@@ -1,5 +1,5 @@
 // icons from https://react-icons-kit.now.sh/iconset/ionicons
-import { socialFacebook } from "react-icons-kit/ionicons/socialFacebook";
+// import { socialFacebook } from "react-icons-kit/ionicons/socialFacebook";
 import { socialGithub } from "react-icons-kit/ionicons/socialGithub";
 import { socialTwitter } from "react-icons-kit/ionicons/socialTwitter";
 import { socialLinkedin } from "react-icons-kit/ionicons/socialLinkedin";
@@ -30,8 +30,16 @@ import EntSoc from "../../assets/image/entsoc.png";
 import AirMatrix from "../../assets/image/airmatrix.png";
 import WavesEG from "../../assets/image/waveseg.png";
 import MacBryte from "../../assets/image/macbryte.png";
+import Waabi from "../../assets/image/waabi.png";
 
 export const CLIENTS = [
+  {
+    image: Waabi,
+    title: "Waabi, Incoming Software Developer",
+    description: [
+      "Core features and framework development for closed-loop, autonomous-driving simulator using Go, Rust, and Python",
+    ],
+  },
   {
     image: Faire,
     title: "Faire, Backend Developer",
@@ -54,7 +62,8 @@ export const CLIENTS = [
     image: HTN,
     title: "Hack the North, Backend Developer",
     description: [
-      "Helping organize North America's largest student-run hackathon",
+      "Helping organize North America's largest student-run hackathon!",
+      "Maintaining HackerApiV3, the primary api that manages all hacker, mentor, and sponsor data.",
     ],
   },
   {
@@ -112,10 +121,6 @@ export const SOCIAL_PROFILES = [
     icon: socialTwitter,
     url: "https://twitter.com/Rahul_1016",
   },
-  {
-    icon: socialFacebook,
-    url: "https://www.facebook.com/RahulAggarwal1016/",
-  },
 ];
 
 export const MENU_ITEMS = [
@@ -129,11 +134,7 @@ export const MENU_ITEMS = [
     path: "#portfolio_section",
     offset: "0",
   },
-  {
-    label: "AWARDS",
-    path: "#awards_section",
-    offset: "0",
-  },
+  { label: "AWARDS", path: "#awards_section", offset: "0" },
   {
     label: "SKILLS",
     path: "#process_section",
@@ -401,13 +402,10 @@ export const SKILLS = [
     title: "Frameworks/Technologies",
     listItems: [
       {
-        content: "React/Next/GatsbyJS",
+        content: "React/React Native",
       },
       {
         content: "Redux",
-      },
-      {
-        content: "React Native",
       },
       {
         content: "NodeJS",
@@ -422,19 +420,16 @@ export const SKILLS = [
         content: "SQL",
       },
       {
-        content: "Realm",
+        content: "Kubernetes",
       },
       {
-        content: "MongoDB",
+        content: "AWS",
+      },
+      {
+        content: "Docker",
       },
       {
         content: "Prisma",
-      },
-      {
-        content: "Hibernate",
-      },
-      {
-        content: "Google Guice",
       },
     ],
   },
@@ -448,10 +443,10 @@ export const SKILLS = [
         content: "Git",
       },
       {
-        content: "Vim",
+        content: "Shell Script",
       },
       {
-        content: "Shell Script",
+        content: "Vim",
       },
     ],
   },

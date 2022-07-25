@@ -18,7 +18,7 @@ const ClientsSection = ({
 }) => {
   const [header, setHeader] = useState("I want to help build your story.");
   const [content, setContent] = useState([
-    "Throughout the years I have contributed to several phenomenal companies, startups, and initiatives. Click to learn more!",
+    "I've had the pleasure of being around some amazing people.",
   ]);
   return (
     <Box {...sectionWrapper} as="section">

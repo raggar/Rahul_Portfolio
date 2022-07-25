@@ -38,13 +38,10 @@ const BannerSection = ({
                 style={{ color: "#3444f1" }}
                 size={22}
               />
-              <Heading
-                content="Backend @ Faire, Hack the North"
-                {...roleStyle}
-              />
+              <Heading content="Software Developer @ Waabi" {...roleStyle} />
             </Box>
             <Text
-              content="19 year-old student developer with a passion for Machine Learning, App development, and creating for the World Wide Web."
+              content="Student developer with a passion for Mobile Apps, Neovim, and creating for the World Wide Web."
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />

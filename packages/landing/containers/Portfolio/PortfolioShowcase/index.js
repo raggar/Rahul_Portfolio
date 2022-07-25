@@ -45,7 +45,7 @@ const PortfolioShowcase = ({
           <Heading {...secTitle} content="I love building software." />
           <Text
             {...secDescription}
-            content="Ever since learning to code, I have made it my goal to explore all facets of software design and architeture by pursuing various project and hackathon ideas. Below are some of my most memorable and favourites. Feel free to take a look at the source code and finished products if you are interested."
+            content="My goal is to explore all facets of software design and architecture by attending hackathons (done 9 before) and pursuing passion projects. Below are some of my most memorable and favourites. Feel free to take a look at the source code and finished products if you are interested!."
           />
         </Box>
 
