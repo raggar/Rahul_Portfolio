@@ -54,13 +54,10 @@ const AwardsSection = ({
     <AwardSectionWrapper id="awards_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading
-            {...secTitle}
-            content="Honorable Recognitions &amp; Awards"
-          />
+          <Heading {...secTitle} content="Awards" />
           <Text
             {...secDescription}
-            content="Below are some of my most notable and proud achievements. Swipe to see more!"
+            content="Below are some of my past hackathon and competition awards."
           />
         </Box>
 

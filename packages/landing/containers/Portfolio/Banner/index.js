@@ -31,14 +31,17 @@ const BannerSection = ({
           <Box {...contentArea}>
             <Heading content="Hello, I’m" {...greetingStyle} />
             <Heading content="Rahul Aggarwal" {...nameStyle} />
-            <Heading content="Software Developer" {...designationStyle} />
+            <Heading content=" Student Developer" {...designationStyle} />
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
                 style={{ color: "#3444f1" }}
                 size={22}
               />
-              <Heading content="Software Developer @ Waabi" {...roleStyle} />
+              <Heading
+                content="Software Engineer Intern @ Waabi"
+                {...roleStyle}
+              />
             </Box>
             <Text
               content="Student developer who is passionate about creating for the World Wide Web."
