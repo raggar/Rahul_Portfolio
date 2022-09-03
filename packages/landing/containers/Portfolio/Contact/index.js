@@ -26,7 +26,7 @@ const ContactSection = ({
           <Heading {...secTitle} content="Have an idea? Lets Work Together." />
           <Text
             {...secDescription}
-            content="If you have a website or mobile app idea in mind or you need some advice about anything tech related feel free to contact me."
+            content="Have a project in mind? Don't hesitate to reach out! Until then, stay well, continue doing good work, and stay in touch."
           />
         </Box>
         <Box {...replyWrapper}>

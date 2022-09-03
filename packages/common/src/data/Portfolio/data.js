@@ -35,7 +35,7 @@ import Waabi from "../../assets/image/waabi.png";
 export const CLIENTS = [
   {
     image: Waabi,
-    title: "Waabi, Incoming Software Developer",
+    title: "Waabi, Software Developer",
     description: [
       "Core features and framework development for closed-loop, autonomous-driving simulator using Go, Rust, and Python.",
     ],

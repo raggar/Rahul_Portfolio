@@ -39,7 +39,7 @@ const BannerSection = ({
                 size={22}
               />
               <Heading
-                content="Software Engineer Intern @ Waabi"
+                content="Software Engineer Intern - Waabi"
                 {...roleStyle}
               />
             </Box>

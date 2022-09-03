@@ -57,7 +57,7 @@ const AwardsSection = ({
           <Heading {...secTitle} content="Awards" />
           <Text
             {...secDescription}
-            content="Below are some of my past hackathon and competition awards."
+            content="Past hackathon and competition awards."
           />
         </Box>
 
