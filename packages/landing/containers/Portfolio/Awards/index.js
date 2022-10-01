@@ -84,7 +84,6 @@ const AwardsSection = ({
                   <AwardeeWrapper>
                     <AwardeeLogo>
                       <Image
-                        onClick={() => window.open(award.awardeeUrl)}
                         style={{ cursor: "pointer" }}
                         src={award.awardeeLogo}
                         alt={`awardee-logo-${index}`}

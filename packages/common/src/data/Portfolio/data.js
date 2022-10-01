@@ -233,9 +233,6 @@ export const PORTFOLIO_SHOWCASE = [
             content: "NextJS",
           },
           {
-            content: "Styled Components",
-          },
-          {
             content: "NodeJS",
           },
           {

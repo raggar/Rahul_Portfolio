@@ -31,7 +31,6 @@ const BannerSection = ({
           <Box {...contentArea}>
             <Heading content="Hello, I’m" {...greetingStyle} />
             <Heading content="Rahul Aggarwal" {...nameStyle} />
-            <Heading content=" Student Developer" {...designationStyle} />
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
