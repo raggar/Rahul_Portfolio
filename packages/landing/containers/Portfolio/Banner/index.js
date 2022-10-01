@@ -19,9 +19,7 @@ const BannerSection = ({
   imageArea,
   greetingStyle,
   nameStyle,
-  designationStyle,
   aboutStyle,
-  roleStyle,
   roleWrapper,
 }) => {
   return (
@@ -36,10 +34,6 @@ const BannerSection = ({
                 icon={cornerDownRight}
                 style={{ color: "#3444f1" }}
                 size={22}
-              />
-              <Heading
-                content="Software Engineer Intern - Waabi"
-                {...roleStyle}
               />
             </Box>
             <Text
