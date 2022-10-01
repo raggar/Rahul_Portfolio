@@ -29,13 +29,6 @@ const BannerSection = ({
           <Box {...contentArea}>
             <Heading content="Hello, I’m" {...greetingStyle} />
             <Heading content="Rahul Aggarwal" {...nameStyle} />
-            <Box {...roleWrapper}>
-              <Icon
-                icon={cornerDownRight}
-                style={{ color: "#3444f1" }}
-                size={22}
-              />
-            </Box>
             <Text
               content="Student developer who is passionate about creating for the World Wide Web."
               {...aboutStyle}
