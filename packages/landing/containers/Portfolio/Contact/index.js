@@ -26,16 +26,17 @@ const ContactSection = ({
           <Heading {...secTitle} content="Have an idea? Lets Work Together." />
           <Text
             {...secDescription}
-            content="Have a project in mind? Don't hesitate to reach out! Until then, stay well, continue doing good work, and stay in touch."
+            content="Have a project in mind? Don't hesitate to reach out!"
           />
         </Box>
         <Box {...replyWrapper}>
           <Heading
             as="h4"
-            content="Reply time: within 1-2 working days"
+            content="Be well, do good work, stay in touch."
             {...replyTime}
           />
         </Box>
+
         <Box {...buttonWrapper}>
           <ButtonWrapper>
             <Button

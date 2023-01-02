@@ -37,20 +37,6 @@ const Footer = ({
               </a>
             </Link>
           </Box>
-          <Box {...col}>
-            <Heading as="h3" content="A treat for your inbox" {...titleStyle} />
-            <Newsletter>
-              <Input
-                inputType="email"
-                placeholder="Email address"
-                iconPosition="right"
-                isMaterial={false}
-                className="email_input"
-                aria-label="email"
-              />
-              <Button {...newsletterButton} title="Subscribe" />
-            </Newsletter>
-          </Box>
         </Box>
 
         <Box {...row} {...noMargin}>

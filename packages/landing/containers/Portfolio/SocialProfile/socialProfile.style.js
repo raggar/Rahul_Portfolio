@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SocialProfileWrapper = styled.div`
   position: relative;
@@ -9,6 +9,7 @@ export const SocialProfileWrapper = styled.div`
 
 export const SocialProfileItem = styled.div`
   margin-right: 18px;
+  margin-top: 25px;
   a {
     color: #fff;
     transition: 0.15s ease-in-out;

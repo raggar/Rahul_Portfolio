@@ -24,10 +24,6 @@ const ProcessSection = ({
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content="Never Stop Learning." />
-          <Text
-            {...secDescription}
-            content="I am always looking to advance myself as a self-taught programmer and tech-enthusiast."
-          />
         </Box>
 
         <LearningRow>

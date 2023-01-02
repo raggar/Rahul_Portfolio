@@ -55,10 +55,6 @@ const AwardsSection = ({
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content="Awards" />
-          <Text
-            {...secDescription}
-            content="Past hackathon and competition awards."
-          />
         </Box>
 
         <GlideCarousel

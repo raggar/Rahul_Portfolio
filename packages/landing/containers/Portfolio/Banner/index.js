@@ -29,10 +29,6 @@ const BannerSection = ({
           <Box {...contentArea}>
             <Heading content="Hello, I’m" {...greetingStyle} />
             <Heading content="Rahul Aggarwal" {...nameStyle} />
-            <Text
-              content="Student developer who is passionate about creating for the World Wide Web."
-              {...aboutStyle}
-            />
             <SocialProfile items={SOCIAL_PROFILES} />
           </Box>
           <Box {...imageArea} className="image_area">

@@ -43,10 +43,6 @@ const PortfolioShowcase = ({
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content="I love building software." />
-          <Text
-            {...secDescription}
-            content="Some of my most memorable and favourite projects. Feel free to take a look at the source code if you are interested!"
-          />
         </Box>
 
         <PortfolioShowcaseWrapper>

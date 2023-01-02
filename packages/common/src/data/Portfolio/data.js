@@ -35,14 +35,14 @@ import Waabi from "../../assets/image/waabi.png";
 export const CLIENTS = [
   {
     image: Waabi,
-    title: "Waabi, Software Developer",
+    title: "Waabi, Software Engineering Intern",
     description: [
       "Core features and framework development for closed-loop, autonomous-driving simulator using Go, Rust, and Python.",
     ],
   },
   {
     image: Faire,
-    title: "Faire, Backend Developer",
+    title: "Faire, Backend Developer Intern",
     description: [
       "Developed Kotlin endpoints using Hibernate, Jersey, and Google Guice to surface import VAT and duty cost estimates for over 90% of  European retailers and brands. ",
       "Rearchitected our shipment api to interface directly with overseas carrier providers.",
@@ -51,7 +51,7 @@ export const CLIENTS = [
   },
   {
     image: Remitbee,
-    title: "Remitbee, FullStack Developer",
+    title: "Remitbee, FullStack Developer Intern",
     description: [
       "Reduced request overhead and internal dashboard latency by 34% through creating an alternative notification system that leverages web sockets and Redis caching.",
       "Created over 40+ GraphQL resolvers to power new internal analytic tool features and support 10% of international currency exchange transactions.",
@@ -376,16 +376,16 @@ export const SKILLS = [
         content: "Python",
       },
       {
+        content: "Golang",
+      },
+      {
         content: "Kotlin",
       },
       {
         content: "Typescript",
       },
       {
-        content: "C++",
-      },
-      {
-        content: "C",
+        content: "C++/C",
       },
       {
         content: "Swift",
