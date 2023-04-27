@@ -1,4 +1,5 @@
 {
+  "home": "http://RahulAggarwal1016.github.io/Rahul_Portfolio",
   "name": "Rahul_Portfolio",
   "description": "Rahul's personal portfolio ",
   "version": "6.0.0",
@@ -9,11 +10,12 @@
     "cpx": "^1.5.0",
     "cross-env": "^7.0.2",
     "firebase-tools": "8.4.3",
+    "gh-pages": "^5.0.0",
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
-    "rimraf": "^3.0.2",
-    "polished": "^3.4.4"
+    "polished": "^3.4.4",
+    "rimraf": "^3.0.2"
   },
   "workspaces": [
     "packages/common",
@@ -22,6 +24,8 @@
   "scripts": {
     "clean": "lerna clean --yes && rimraf node_modules",
     "start": "lerna run --parallel dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "preweb": "cpx \"packages/common/src/assets/image/**/*.*\" \"packages/landing/static\" -C",
     "next-dev": "yarn workspace next-landing run dev",
     "next-build": "rimraf dist && yarn workspace next-landing run build",
