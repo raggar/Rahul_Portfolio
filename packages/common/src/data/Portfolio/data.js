@@ -31,8 +31,14 @@ import AirMatrix from "../../assets/image/airmatrix.png";
 import WavesEG from "../../assets/image/waveseg.png";
 import MacBryte from "../../assets/image/macbryte.png";
 import Waabi from "../../assets/image/waabi.png";
+import CRL from "../../assets/image/crl.png";
 
 export const CLIENTS = [
+  {
+    image: CRL,
+    title: "Cockroach Labs, Software Engineering Intern",
+    description: ["Storage team"],
+  },
   {
     image: Waabi,
     title: "Waabi, Software Engineering Intern",
@@ -76,7 +82,7 @@ export const CLIENTS = [
   },
   {
     image: EntSoc,
-    title: "Waterloo Entrepreneurship Society, FullStack Developer",
+    title: "UW Entrepreneurship Society, FullStack Developer",
     description: [
       "Developed an internal interface with React and NodeJs to replace spreadsheets.",
       "Integrated third-party services and external API's to replace legacy features.",
@@ -100,7 +106,7 @@ export const CLIENTS = [
   },
   {
     image: MacBryte,
-    title: "MacOS Developer",
+    title: "MacBryte, IOS Developer",
     description: [
       "Published a Swift and Typescript based MacOS application to allow users to view their lesson details, and learn about their systems configuration settings.",
       "Automated 25% of logistical operations by engineering new admin control features.",
@@ -349,7 +355,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: "Lasso Learn",
         description:
-          "LassoLearn is a platform for users to engage in one-on-one discussions to teach and learn new skills. When a user creates an account they can select the topics that they would like to teach or learn and are then immediatly connected with others who share their learning interests.",
+          "A platform for users to engage in one-on-one discussions to teach and learn new skills. When a user creates an account they can select the topics that they would like to teach or learn and are then immediatly connected with others who share their learning interests.",
         image: LassoLearnImage,
         link: "https://github.com/RahulAggarwal1016/Lasso_Learn",
         buildWith: [

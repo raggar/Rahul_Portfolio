@@ -25,16 +25,6 @@ const ClientsSection = ({
       <Container noGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content={header} />
-          {/* {content.length == 1 ? ( */}
-          {/*   <Text {...secDescription} content={content[0]} /> */}
-          {/* ) : ( */}
-          {/*   content.map((bullet) => ( */}
-          {/*     <> */}
-          {/*       <Text {...secDescription} content={"- " + bullet} /> */}
-          {/*       <br /> */}
-          {/*     </> */}
-          {/*   )) */}
-          {/* )} */}
         </Box>
         <Box {...row}>
           {CLIENTS.map(({ image, title, description }, index) => (

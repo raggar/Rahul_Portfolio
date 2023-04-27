@@ -24,8 +24,8 @@
   "scripts": {
     "clean": "lerna clean --yes && rimraf node_modules",
     "start": "lerna run --parallel dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run next-build",
+    "deploy": "gh-pages -d packages/landing/pages",
     "preweb": "cpx \"packages/common/src/assets/image/**/*.*\" \"packages/landing/static\" -C",
     "next-dev": "yarn workspace next-landing run dev",
     "next-build": "rimraf dist && yarn workspace next-landing run build",
