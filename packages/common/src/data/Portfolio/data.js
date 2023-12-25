@@ -32,8 +32,15 @@ import WavesEG from "../../assets/image/waveseg.png";
 import MacBryte from "../../assets/image/macbryte.png";
 import Waabi from "../../assets/image/waabi.png";
 import CRL from "../../assets/image/crl.png";
+import Snowflake from "../assets/image/snowflake.png"
 
 export const CLIENTS = [
+  {
+
+    image: Snowflake,
+    title: "Snowflake, Incoming Software Engineering Intern",
+    description: ["Storage Platform team"],
+  },
   {
     image: CRL,
     title: "Cockroach Labs, Software Engineering Intern",
@@ -117,11 +124,11 @@ export const CLIENTS = [
 export const SOCIAL_PROFILES = [
   {
     icon: socialGithub,
-    url: "https://github.com/RahulAggarwal1016",
+    url: "https://github.com/raggaar",
   },
   {
     icon: socialLinkedin,
-    url: "https://www.linkedin.com/in/rahul1016/",
+    url: "https://www.linkedin.com/in/raggar/",
   },
   {
     icon: socialTwitter,
@@ -405,25 +412,16 @@ export const SKILLS = [
     title: "Frameworks/Technologies",
     listItems: [
       {
-        content: "React/React Native",
-      },
-      {
-        content: "Redux",
+        content: "React & React Native",
       },
       {
         content: "NodeJS",
-      },
-      {
-        content: "Django",
       },
       {
         content: "GraphQL",
       },
       {
         content: "SQL",
-      },
-      {
-        content: "Kubernetes",
       },
       {
         content: "AWS",
@@ -444,12 +442,6 @@ export const SKILLS = [
       },
       {
         content: "Git",
-      },
-      {
-        content: "Shell Script",
-      },
-      {
-        content: "Vim",
       },
     ],
   },
