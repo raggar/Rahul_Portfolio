@@ -32,7 +32,7 @@ import WavesEG from "../../assets/image/waveseg.png";
 import MacBryte from "../../assets/image/macbryte.png";
 import Waabi from "../../assets/image/waabi.png";
 import CRL from "../../assets/image/crl.png";
-import Snowflake from "../assets/image/snowflake.png"
+import Snowflake from "../../assets/image/snowflake.png"
 
 export const CLIENTS = [
   {
